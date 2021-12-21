@@ -1,0 +1,131 @@
+2021-12-04 09:56:41.420 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [qa.BotQaTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-12-04 09:56:41.694 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener]
+2021-12-04 09:56:41.717 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@13f95696, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@cd1d761, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@68be8808, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@32193bea, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6b8d96d9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@69653e16, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@758705fa, org.springframework.test.context.event.EventPublishingTestExecutionListener@ebaa6cb, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@906d29b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@49d3c823, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@436bc36, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5fe1ce85, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@604c5de8, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@37091312]
+2021-12-04 09:56:42.105 [main] INFO  qa.BotQaTest - Starting BotQaTest using Java 11.0.11 on jael-Aspire-A3 with PID 6593 (started by jael in /home/jael/Dev/bot-indeed)
+2021-12-04 09:56:42.108 [main] INFO  qa.BotQaTest - No active profile set, falling back to default profiles: default
+2021-12-04 09:56:43.153 [pool-1-thread-1] WARN  bot.application.IndeedMiner - No records available to mine, waiting 2s
+2021-12-04 09:56:43.167 [pool-2-thread-1] WARN  bot.application.IndeedLoader - No records available to load, waiting at 2s
+2021-12-04 09:56:43.288 [pool-3-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-04 09:56:43.289 [pool-3-thread-1] WARN  bot.application.IndeedCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-04 09:56:43.306 [pool-4-thread-1] WARN  bot.application.IndeedScheduler - No records available to schedule, waiting 2s
+2021-12-04 09:56:43.561 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-12-04 09:56:43.634 [main] INFO  qa.BotQaTest - Started BotQaTest in 1.861 seconds (JVM running for 4.451)
+2021-12-04 09:56:45.158 [pool-1-thread-1] WARN  bot.application.IndeedMiner - No records available to mine, waiting 4s
+2021-12-04 09:56:45.168 [pool-2-thread-1] WARN  bot.application.IndeedLoader - No records available to load, waiting at 4s
+2021-12-04 09:56:45.290 [pool-3-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-04 09:56:45.291 [pool-3-thread-1] WARN  bot.application.IndeedCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-04 09:56:45.307 [pool-4-thread-1] WARN  bot.application.IndeedScheduler - No records available to schedule, waiting 4s
+2021-12-04 09:56:45.429 [main] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 200 - https://apiqa.neoway.com.br/oauth2/token
+2021-12-04 09:56:45.436 [main] INFO  neoway.adapter.TokenRepositoryImpl - [API] - Token was successfully retrieved
+2021-12-04 09:56:45.735 [main] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 200 - https://apiqa.neoway.com.br/providers/predictus/proxy-providers/bonanza/consumers/ejud-tjpa-unificado
+2021-12-04 09:56:45.746 [main] INFO  neoway.adapter.ProxyRepositoryImpl - [API] - Proxy was successfully retrieved - Provider bonanza
+2021-12-04 09:56:47.292 [pool-3-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-04 09:56:47.292 [pool-3-thread-1] WARN  bot.application.IndeedCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-04 09:56:49.159 [pool-1-thread-1] WARN  bot.application.IndeedMiner - No records available to mine, waiting 8s
+2021-12-04 09:56:49.169 [pool-2-thread-1] WARN  bot.application.IndeedLoader - No records available to load, waiting at 8s
+2021-12-04 09:56:49.292 [pool-3-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-04 09:56:49.293 [pool-3-thread-1] WARN  bot.application.IndeedCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-04 09:56:49.308 [pool-4-thread-1] WARN  bot.application.IndeedScheduler - No records available to schedule, waiting 8s
+2021-12-04 09:56:51.294 [pool-3-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-04 09:56:51.295 [pool-3-thread-1] WARN  bot.application.IndeedCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-04 09:56:53.296 [pool-3-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-04 09:56:53.297 [pool-3-thread-1] WARN  bot.application.IndeedCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-04 09:56:55.298 [pool-3-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-04 09:56:55.299 [pool-3-thread-1] WARN  bot.application.IndeedCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-04 09:56:57.160 [pool-1-thread-1] WARN  bot.application.IndeedMiner - No records available to mine, waiting 16s
+2021-12-04 09:56:57.169 [pool-2-thread-1] WARN  bot.application.IndeedLoader - No records available to load, waiting at 16s
+2021-12-04 09:56:57.300 [pool-3-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-04 09:56:57.301 [pool-3-thread-1] WARN  bot.application.IndeedCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-04 09:56:57.309 [pool-4-thread-1] WARN  bot.application.IndeedScheduler - No records available to schedule, waiting 16s
+2021-12-04 09:56:59.301 [pool-3-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-04 09:56:59.302 [pool-3-thread-1] WARN  bot.application.IndeedCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-04 09:57:01.303 [pool-3-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-04 09:57:01.304 [pool-3-thread-1] WARN  bot.application.IndeedCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-04 09:57:03.304 [pool-3-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-04 09:57:03.306 [pool-3-thread-1] WARN  bot.application.IndeedCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-04 09:57:05.306 [pool-3-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-04 09:57:05.307 [pool-3-thread-1] WARN  bot.application.IndeedCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-04 09:57:07.308 [pool-3-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-04 09:57:07.309 [pool-3-thread-1] WARN  bot.application.IndeedCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-04 09:57:09.310 [pool-3-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-04 09:57:09.310 [pool-3-thread-1] WARN  bot.application.IndeedCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-04 09:57:11.311 [pool-3-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-04 09:57:11.312 [pool-3-thread-1] WARN  bot.application.IndeedCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-04 09:57:13.161 [pool-1-thread-1] WARN  bot.application.IndeedMiner - No records available to mine, waiting 20s
+2021-12-04 09:57:13.170 [pool-2-thread-1] WARN  bot.application.IndeedLoader - No records available to load, waiting at 20s
+2021-12-04 09:57:13.310 [pool-4-thread-1] WARN  bot.application.IndeedScheduler - No records available to schedule, waiting 30s
+2021-12-04 09:57:13.313 [pool-3-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-04 09:57:13.313 [pool-3-thread-1] WARN  bot.application.IndeedCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-04 09:57:15.314 [pool-3-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-04 09:57:15.314 [pool-3-thread-1] WARN  bot.application.IndeedCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-04 09:57:17.315 [pool-3-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-04 09:57:17.315 [pool-3-thread-1] WARN  bot.application.IndeedCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-04 09:57:19.316 [pool-3-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-04 09:57:19.316 [pool-3-thread-1] WARN  bot.application.IndeedCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-04 09:57:21.317 [pool-3-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-04 09:57:21.318 [pool-3-thread-1] WARN  bot.application.IndeedCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-04 09:57:23.318 [pool-3-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-04 09:57:23.319 [pool-3-thread-1] WARN  bot.application.IndeedCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-04 09:57:24.382 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-12-04 09:58:15.303 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [qa.BotQaTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-12-04 09:58:15.634 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener]
+2021-12-04 09:58:15.654 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7d64e326, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@13f95696, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@cd1d761, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@68be8808, org.springframework.test.context.support.DirtiesContextTestExecutionListener@32193bea, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6b8d96d9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@69653e16, org.springframework.test.context.event.EventPublishingTestExecutionListener@758705fa, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@ebaa6cb, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@906d29b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@49d3c823, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@436bc36, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5fe1ce85, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@604c5de8]
+2021-12-04 09:58:16.068 [main] INFO  qa.BotQaTest - Starting BotQaTest using Java 11.0.11 on jael-Aspire-A3 with PID 6674 (started by jael in /home/jael/Dev/bot-indeed)
+2021-12-04 09:58:16.071 [main] INFO  qa.BotQaTest - No active profile set, falling back to default profiles: default
+2021-12-04 09:58:17.052 [pool-1-thread-1] WARN  bot.application.IndeedMiner - No records available to mine, waiting 2s
+2021-12-04 09:58:17.066 [pool-2-thread-1] WARN  bot.application.IndeedLoader - No records available to load, waiting at 2s
+2021-12-04 09:58:17.220 [pool-3-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-04 09:58:17.221 [pool-3-thread-1] WARN  bot.application.IndeedCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-04 09:58:17.241 [pool-4-thread-1] WARN  bot.application.IndeedScheduler - No records available to schedule, waiting 2s
+2021-12-04 09:58:17.503 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-12-04 09:58:17.571 [main] INFO  qa.BotQaTest - Started BotQaTest in 1.863 seconds (JVM running for 4.041)
+2021-12-04 09:58:19.061 [pool-1-thread-1] WARN  bot.application.IndeedMiner - No records available to mine, waiting 4s
+2021-12-04 09:58:19.067 [pool-2-thread-1] WARN  bot.application.IndeedLoader - No records available to load, waiting at 4s
+2021-12-04 09:58:19.203 [main] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 200 - https://apiqa.neoway.com.br/oauth2/token
+2021-12-04 09:58:19.209 [main] INFO  neoway.adapter.TokenRepositoryImpl - [API] - Token was successfully retrieved
+2021-12-04 09:58:19.221 [pool-3-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-04 09:58:19.222 [pool-3-thread-1] WARN  bot.application.IndeedCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-04 09:58:19.242 [pool-4-thread-1] WARN  bot.application.IndeedScheduler - No records available to schedule, waiting 4s
+2021-12-04 09:58:19.501 [main] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 200 - https://apiqa.neoway.com.br/providers/predictus/proxy-providers/bonanza/consumers/ejud-tjpa-unificado
+2021-12-04 09:58:19.513 [main] INFO  neoway.adapter.ProxyRepositoryImpl - [API] - Proxy was successfully retrieved - Provider bonanza
+2021-12-04 09:58:21.222 [pool-3-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-04 09:58:21.223 [pool-3-thread-1] WARN  bot.application.IndeedCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-04 09:58:22.888 [main] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://br.indeed.com/
+2021-12-04 09:59:58.698 [pool-4-thread-1] WARN  bot.application.IndeedScheduler - No records available to schedule, waiting 8s
+2021-12-04 09:59:58.698 [pool-1-thread-1] WARN  bot.application.IndeedMiner - No records available to mine, waiting 8s
+2021-12-04 09:59:58.698 [pool-2-thread-1] WARN  bot.application.IndeedLoader - No records available to load, waiting at 8s
+2021-12-04 09:59:58.698 [pool-3-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-04 09:59:58.707 [pool-3-thread-1] WARN  bot.application.IndeedCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-04 09:59:58.744 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-12-04 10:00:02.074 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [qa.BotQaTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-12-04 10:00:02.282 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener]
+2021-12-04 10:00:02.301 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7d64e326, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@13f95696, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@cd1d761, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@68be8808, org.springframework.test.context.support.DirtiesContextTestExecutionListener@32193bea, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6b8d96d9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@69653e16, org.springframework.test.context.event.EventPublishingTestExecutionListener@758705fa, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@ebaa6cb, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@906d29b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@49d3c823, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@436bc36, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5fe1ce85, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@604c5de8]
+2021-12-04 10:00:02.676 [main] INFO  qa.BotQaTest - Starting BotQaTest using Java 11.0.11 on jael-Aspire-A3 with PID 6785 (started by jael in /home/jael/Dev/bot-indeed)
+2021-12-04 10:00:02.679 [main] INFO  qa.BotQaTest - No active profile set, falling back to default profiles: default
+2021-12-04 10:00:03.600 [pool-1-thread-1] WARN  bot.application.IndeedMiner - No records available to mine, waiting 2s
+2021-12-04 10:00:03.610 [pool-2-thread-1] WARN  bot.application.IndeedLoader - No records available to load, waiting at 2s
+2021-12-04 10:00:03.753 [pool-3-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-04 10:00:03.753 [pool-3-thread-1] WARN  bot.application.IndeedCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-04 10:00:03.769 [pool-4-thread-1] WARN  bot.application.IndeedScheduler - No records available to schedule, waiting 2s
+2021-12-04 10:00:04.063 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-12-04 10:00:04.126 [main] INFO  qa.BotQaTest - Started BotQaTest in 1.779 seconds (JVM running for 3.864)
+2021-12-04 10:00:05.615 [pool-1-thread-1] WARN  bot.application.IndeedMiner - No records available to mine, waiting 4s
+2021-12-04 10:00:05.616 [pool-2-thread-1] WARN  bot.application.IndeedLoader - No records available to load, waiting at 4s
+2021-12-04 10:00:05.754 [pool-3-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-04 10:00:05.755 [pool-3-thread-1] WARN  bot.application.IndeedCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-04 10:00:05.770 [pool-4-thread-1] WARN  bot.application.IndeedScheduler - No records available to schedule, waiting 4s
+2021-12-04 10:00:05.801 [main] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 200 - https://apiqa.neoway.com.br/oauth2/token
+2021-12-04 10:00:05.805 [main] INFO  neoway.adapter.TokenRepositoryImpl - [API] - Token was successfully retrieved
+2021-12-04 10:00:06.099 [main] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 200 - https://apiqa.neoway.com.br/providers/predictus/proxy-providers/bonanza/consumers/ejud-tjpa-unificado
+2021-12-04 10:00:06.110 [main] INFO  neoway.adapter.ProxyRepositoryImpl - [API] - Proxy was successfully retrieved - Provider bonanza
+2021-12-04 10:00:07.756 [pool-3-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-04 10:00:07.757 [pool-3-thread-1] WARN  bot.application.IndeedCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-04 10:00:09.616 [main] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://br.indeed.com/
+2021-12-04 10:00:09.616 [pool-1-thread-1] WARN  bot.application.IndeedMiner - No records available to mine, waiting 8s
+2021-12-04 10:00:09.617 [pool-2-thread-1] WARN  bot.application.IndeedLoader - No records available to load, waiting at 8s
+2021-12-04 10:05:06.068 [pool-4-thread-1] WARN  bot.application.IndeedScheduler - No records available to schedule, waiting 8s
+2021-12-04 10:05:06.071 [pool-2-thread-1] WARN  bot.application.IndeedLoader - No records available to load, waiting at 16s
+2021-12-04 10:05:06.071 [pool-1-thread-1] WARN  bot.application.IndeedMiner - No records available to mine, waiting 16s
+2021-12-04 10:05:06.069 [pool-3-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-04 10:05:06.081 [pool-3-thread-1] INFO  bot.application.IndeedCrawler - Crawling a record - Parameters {}
+2021-12-04 10:05:06.163 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'

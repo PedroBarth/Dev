@@ -1,0 +1,6 @@
+2021-12-07 09:51:53.357 [pool-1-thread-1] WARN  bot.application.IndeedMiner - No records available to mine, waiting 8s
+2021-12-07 09:51:53.358 [pool-3-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-07 09:51:53.447 [pool-3-thread-1] WARN  bot.application.IndeedCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-07 09:51:53.357 [pool-2-thread-1] WARN  bot.application.IndeedLoader - No records available to load, waiting at 8s
+2021-12-07 09:51:53.357 [pool-4-thread-1] WARN  bot.application.IndeedScheduler - No records available to schedule, waiting 8s
+2021-12-07 09:51:53.676 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
