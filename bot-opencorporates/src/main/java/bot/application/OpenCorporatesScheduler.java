@@ -18,12 +18,12 @@ import bot.runnables.Scheduler;
 
 @Named
 @Scope("prototype")
-public class InfobelScheduler extends Scheduler {
+public class OpenCorporatesScheduler extends Scheduler {
 
   private final InputMessageBroker queueInputMessageBroker;
 
   @Inject
-  public InfobelScheduler(
+  public OpenCorporatesScheduler(
 
     final InputMessageBroker queueInputMessageBroker,
     final LoaderRepository loaderRepository,
@@ -34,7 +34,7 @@ public class InfobelScheduler extends Scheduler {
     this.queueInputMessageBroker = queueInputMessageBroker;
   }
 
-  @Scheduled(cron = "0 32 14 * * *")
+  @Scheduled(cron = "00 49 18 * * *")
   public void scheduleTaskUsingCronExpression() {
     this.queueInputMessageBroker.reprocessMessage(new Message(new HashMap<String, String>(), "payload", RequestStatus.FOUND, LocalDateTime.now()));
   }

@@ -6,11 +6,11 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 @PropertySource({ "file:config/application.properties" })
-@SpringBootApplication(scanBasePackages = { "bot", "neoway" })
+@SpringBootApplication(scanBasePackages = {"bot"})
 @EnableScheduling
-public class BotInfobelApplication {
+public class BotOpenCorporatesApplication {
 
   public static void main(final String[] args) {
-    SpringApplication.run(BotInfobelApplication.class, args);
+    SpringApplication.run(BotOpenCorporatesApplication.class, args);
   }
 }

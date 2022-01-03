@@ -6,6 +6,7 @@ import java.time.LocalDateTime;
 import java.util.Collections;
 import java.util.Optional;
 
+import bot.application.OpenCorporatesMiner;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,22 +14,21 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
-import bot.BotInfobelApplication;
-import bot.application.InfobelCrawler;
-import bot.application.InfobelMiner;
+import bot.BotOpenCorporatesApplication;
+import bot.application.OpenCorporatesCrawler;
 import bot.domain.Message;
 import bot.domain.RequestStatus;
 
 @SpringBootTest
 @ExtendWith(SpringExtension.class)
-@ContextConfiguration(classes = BotInfobelApplication.class)
+@ContextConfiguration(classes = BotOpenCorporatesApplication.class)
 class BotQaTest {
 
   @Autowired
-  private InfobelCrawler crawler;
+  private OpenCorporatesCrawler crawler;
 
   @Autowired
-  private InfobelMiner miner;
+  private OpenCorporatesMiner miner;
 
   Optional<Message> harvestedCrawler = Optional.empty();
   Optional<Message> harvestedMiner = Optional.empty();

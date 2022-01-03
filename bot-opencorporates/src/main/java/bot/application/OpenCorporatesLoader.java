@@ -12,10 +12,10 @@ import bot.runnables.Loader;
 
 @Named
 @Scope("prototype")
-public class InfobelLoader extends Loader {
+public class OpenCorporatesLoader extends Loader {
 
   @Inject
-  public InfobelLoader(
+  public OpenCorporatesLoader(
 
     final OutputMessageBroker loaderOutputMessageBrokerImpl, final LoaderRepository repository,
     @Value("${output.loader.repository:false}") final boolean hasRepository) {

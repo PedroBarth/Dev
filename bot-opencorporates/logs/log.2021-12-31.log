@@ -1,0 +1,441 @@
+2021-12-31 00:06:56.172 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [qa.BotQaTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-12-31 00:06:56.404 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener]
+2021-12-31 00:06:56.421 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1d1f7216, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@423e4cbb, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6e16b8b5, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@43b4fe19, org.springframework.test.context.support.DirtiesContextTestExecutionListener@25ddbbbb, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1536602f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4ebea12c, org.springframework.test.context.event.EventPublishingTestExecutionListener@2a1edad4, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6256ac4f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@44c79f32, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7fcbe147, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@235f4c10, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@743cb8e0, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@c7a975a]
+2021-12-31 00:06:56.763 [main] INFO  qa.BotQaTest - Starting BotQaTest using Java 11.0.11 on DESKTOP-KN5OJOB with PID 12216 (started by pedro in C:\Users\pedro\Desktop\Predictus\Dev\bot-opencorporates)
+2021-12-31 00:06:56.765 [main] INFO  qa.BotQaTest - No active profile set, falling back to default profiles: default
+2021-12-31 00:06:57.567 [pool-2-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:06:57.571 [pool-2-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:06:57.577 [pool-3-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2021-12-31 00:06:57.586 [pool-4-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2021-12-31 00:06:57.605 [pool-5-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 2s
+2021-12-31 00:06:57.865 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-12-31 00:06:57.941 [main] INFO  qa.BotQaTest - Started BotQaTest in 1.464 seconds (JVM running for 2.761)
+2021-12-31 00:06:59.578 [pool-3-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 4s
+2021-12-31 00:06:59.578 [pool-2-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:06:59.578 [pool-2-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:06:59.594 [pool-4-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 4s
+2021-12-31 00:06:59.610 [pool-5-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 4s
+2021-12-31 00:06:59.883 [main] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/users/sign_in
+2021-12-31 00:07:00.635 [main] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 200 - https://opencorporates.com/users/sign_in
+2021-12-31 00:07:00.930 [main] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/users/account
+2021-12-31 00:07:01.568 [main] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/br?page=31&q=tecnologia&utf8=✓
+2021-12-31 00:16:44.768 [pool-3-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 8s
+2021-12-31 00:16:44.768 [pool-5-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 8s
+2021-12-31 00:16:44.768 [pool-4-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 8s
+2021-12-31 00:16:44.768 [pool-2-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:16:44.769 [pool-2-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:16:44.792 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-12-31 00:16:48.227 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [qa.BotQaTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-12-31 00:16:48.431 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener]
+2021-12-31 00:16:48.447 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4ae33a11, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7a48e6e2, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@b40bb6e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3a94964, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5049d8b2, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6d0b5baf, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@631e06ab, org.springframework.test.context.event.EventPublishingTestExecutionListener@2a3591c5, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@34a75079, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@346a361, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@107ed6fc, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1643d68f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@186978a6, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2e029d61]
+2021-12-31 00:16:48.762 [main] INFO  qa.BotQaTest - Starting BotQaTest using Java 11.0.11 on DESKTOP-KN5OJOB with PID 2420 (started by pedro in C:\Users\pedro\Desktop\Predictus\Dev\bot-opencorporates)
+2021-12-31 00:16:48.764 [main] INFO  qa.BotQaTest - No active profile set, falling back to default profiles: default
+2021-12-31 00:16:49.514 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:16:49.518 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:16:49.524 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2021-12-31 00:16:49.535 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2021-12-31 00:16:49.553 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 2s
+2021-12-31 00:16:49.786 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-12-31 00:16:49.854 [main] INFO  qa.BotQaTest - Started BotQaTest in 1.364 seconds (JVM running for 2.542)
+2021-12-31 00:16:51.523 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:16:51.523 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:16:51.538 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 4s
+2021-12-31 00:16:51.538 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 4s
+2021-12-31 00:16:51.554 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 4s
+2021-12-31 00:16:51.599 [main] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/users/sign_in
+2021-12-31 00:16:52.341 [main] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 200 - https://opencorporates.com/users/sign_in
+2021-12-31 00:16:52.664 [main] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/users/account
+2021-12-31 00:16:53.201 [main] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/br?page=31&q=tecnologia&utf8=✓
+2021-12-31 00:18:12.839 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 8s
+2021-12-31 00:18:12.839 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:18:12.839 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 8s
+2021-12-31 00:18:12.839 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 8s
+2021-12-31 00:18:12.840 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:18:12.864 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-12-31 00:18:15.973 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [qa.BotQaTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-12-31 00:18:16.176 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener]
+2021-12-31 00:18:16.191 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4ae33a11, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7a48e6e2, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@b40bb6e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3a94964, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5049d8b2, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6d0b5baf, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@631e06ab, org.springframework.test.context.event.EventPublishingTestExecutionListener@2a3591c5, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@34a75079, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@346a361, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@107ed6fc, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1643d68f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@186978a6, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2e029d61]
+2021-12-31 00:18:16.525 [main] INFO  qa.BotQaTest - Starting BotQaTest using Java 11.0.11 on DESKTOP-KN5OJOB with PID 8712 (started by pedro in C:\Users\pedro\Desktop\Predictus\Dev\bot-opencorporates)
+2021-12-31 00:18:16.527 [main] INFO  qa.BotQaTest - No active profile set, falling back to default profiles: default
+2021-12-31 00:18:17.281 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:18:17.284 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:18:17.290 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2021-12-31 00:18:17.302 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2021-12-31 00:18:17.319 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 2s
+2021-12-31 00:18:17.551 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-12-31 00:18:17.620 [main] INFO  qa.BotQaTest - Started BotQaTest in 1.384 seconds (JVM running for 2.574)
+2021-12-31 00:18:19.289 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:18:19.289 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:18:19.305 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 4s
+2021-12-31 00:18:19.305 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 4s
+2021-12-31 00:18:19.320 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 4s
+2021-12-31 00:18:19.325 [main] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/users/sign_in
+2021-12-31 00:18:20.130 [main] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 200 - https://opencorporates.com/users/sign_in
+2021-12-31 00:18:20.400 [main] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/users/account
+2021-12-31 00:18:21.011 [main] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/br?page=31&q=tecnologia&utf8=✓
+2021-12-31 00:19:47.660 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 8s
+2021-12-31 00:19:47.660 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 8s
+2021-12-31 00:19:47.660 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:19:47.660 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 8s
+2021-12-31 00:19:47.661 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:19:47.684 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-12-31 00:19:50.768 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [qa.BotQaTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-12-31 00:19:50.975 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener]
+2021-12-31 00:19:50.990 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4ae33a11, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7a48e6e2, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@b40bb6e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3a94964, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5049d8b2, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6d0b5baf, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@631e06ab, org.springframework.test.context.event.EventPublishingTestExecutionListener@2a3591c5, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@34a75079, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@346a361, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@107ed6fc, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1643d68f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@186978a6, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2e029d61]
+2021-12-31 00:19:51.318 [main] INFO  qa.BotQaTest - Starting BotQaTest using Java 11.0.11 on DESKTOP-KN5OJOB with PID 4104 (started by pedro in C:\Users\pedro\Desktop\Predictus\Dev\bot-opencorporates)
+2021-12-31 00:19:51.320 [main] INFO  qa.BotQaTest - No active profile set, falling back to default profiles: default
+2021-12-31 00:19:52.070 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:19:52.073 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:19:52.081 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2021-12-31 00:19:52.091 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2021-12-31 00:19:52.108 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 2s
+2021-12-31 00:19:52.353 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-12-31 00:19:52.422 [main] INFO  qa.BotQaTest - Started BotQaTest in 1.387 seconds (JVM running for 2.558)
+2021-12-31 00:19:54.082 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 4s
+2021-12-31 00:19:54.082 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:19:54.082 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:19:54.098 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 4s
+2021-12-31 00:19:54.114 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 4s
+2021-12-31 00:19:54.197 [main] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/users/sign_in
+2021-12-31 00:19:54.990 [main] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 200 - https://opencorporates.com/users/sign_in
+2021-12-31 00:19:55.304 [main] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/users/account
+2021-12-31 00:19:55.869 [main] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/br?page=31&q=tecnologia&utf8=✓
+2021-12-31 00:20:20.808 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:20:20.808 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 8s
+2021-12-31 00:20:20.808 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 8s
+2021-12-31 00:20:20.808 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 8s
+2021-12-31 00:20:20.809 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:20:20.832 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-12-31 00:20:24.071 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [qa.BotQaTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-12-31 00:20:24.269 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener]
+2021-12-31 00:20:24.284 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4ae33a11, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7a48e6e2, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@b40bb6e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3a94964, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5049d8b2, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6d0b5baf, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@631e06ab, org.springframework.test.context.event.EventPublishingTestExecutionListener@2a3591c5, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@34a75079, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@346a361, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@107ed6fc, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1643d68f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@186978a6, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2e029d61]
+2021-12-31 00:20:24.612 [main] INFO  qa.BotQaTest - Starting BotQaTest using Java 11.0.11 on DESKTOP-KN5OJOB with PID 7072 (started by pedro in C:\Users\pedro\Desktop\Predictus\Dev\bot-opencorporates)
+2021-12-31 00:20:24.614 [main] INFO  qa.BotQaTest - No active profile set, falling back to default profiles: default
+2021-12-31 00:20:25.354 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:20:25.358 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:20:25.365 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2021-12-31 00:20:25.375 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2021-12-31 00:20:25.393 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 2s
+2021-12-31 00:20:25.646 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-12-31 00:20:25.720 [main] INFO  qa.BotQaTest - Started BotQaTest in 1.39 seconds (JVM running for 2.616)
+2021-12-31 00:20:27.365 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:20:27.365 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 4s
+2021-12-31 00:20:27.365 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:20:27.368 [main] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/users/sign_in
+2021-12-31 00:20:27.381 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 4s
+2021-12-31 00:20:27.397 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 4s
+2021-12-31 00:20:28.154 [main] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 200 - https://opencorporates.com/users/sign_in
+2021-12-31 00:20:28.441 [main] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/users/account
+2021-12-31 00:20:28.952 [main] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/br?page=31&q=tecnologia&utf8=✓
+2021-12-31 00:29:52.445 [main] INFO  bot.BotOpenCorporatesApplication - Starting BotOpenCorporatesApplication using Java 11.0.11 on DESKTOP-KN5OJOB with PID 12964 (C:\Users\pedro\Desktop\Predictus\Dev\bot-opencorporates\target\classes started by pedro in C:\Users\pedro\Desktop\Predictus\Dev\bot-opencorporates)
+2021-12-31 00:29:52.448 [main] INFO  bot.BotOpenCorporatesApplication - No active profile set, falling back to default profiles: default
+2021-12-31 00:29:53.185 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:29:53.188 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:29:53.191 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2021-12-31 00:29:53.197 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2021-12-31 00:29:53.214 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 2s
+2021-12-31 00:29:53.387 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-12-31 00:29:53.432 [main] INFO  bot.BotOpenCorporatesApplication - Started BotOpenCorporatesApplication in 1.378 seconds (JVM running for 2.031)
+2021-12-31 00:29:55.190 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:29:55.190 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:29:55.206 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 4s
+2021-12-31 00:29:55.206 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 4s
+2021-12-31 00:29:55.222 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 4s
+2021-12-31 00:29:57.194 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:29:57.194 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:29:59.200 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:29:59.200 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:29:59.216 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 8s
+2021-12-31 00:29:59.216 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 8s
+2021-12-31 00:29:59.231 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 8s
+2021-12-31 00:30:01.210 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:30:01.210 [pool-1-thread-1] INFO  b.application.OpenCorporatesCrawler - Crawling a record - Parameters {}
+2021-12-31 00:30:02.518 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/users/sign_in
+2021-12-31 00:30:03.839 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 200 - https://opencorporates.com/users/sign_in
+2021-12-31 00:30:04.110 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/users/account
+2021-12-31 00:30:04.942 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/br?page=
+2021-12-31 00:30:06.206 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/br?page=
+2021-12-31 00:30:07.187 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/br?page=
+2021-12-31 00:30:07.230 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 16s
+2021-12-31 00:30:07.230 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 16s
+2021-12-31 00:30:07.245 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 16s
+2021-12-31 00:30:08.287 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/br?page=
+2021-12-31 00:30:09.452 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/br?page=
+2021-12-31 00:30:10.692 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/br?page=
+2021-12-31 00:30:11.753 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/br?page=
+2021-12-31 00:30:13.069 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/br?page=
+2021-12-31 00:30:14.303 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/br?page=
+2021-12-31 00:30:15.643 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/br?page=
+2021-12-31 00:30:16.974 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/br?page=
+2021-12-31 00:30:18.089 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/br?page=
+2021-12-31 00:30:19.193 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/br?page=
+2021-12-31 00:30:20.211 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/br?page=
+2021-12-31 00:33:53.542 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 20s
+2021-12-31 00:33:53.542 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 20s
+2021-12-31 00:33:53.542 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 30s
+2021-12-31 00:33:53.572 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-12-31 00:33:56.894 [main] INFO  bot.BotOpenCorporatesApplication - Starting BotOpenCorporatesApplication using Java 11.0.11 on DESKTOP-KN5OJOB with PID 2644 (C:\Users\pedro\Desktop\Predictus\Dev\bot-opencorporates\target\classes started by pedro in C:\Users\pedro\Desktop\Predictus\Dev\bot-opencorporates)
+2021-12-31 00:33:56.897 [main] INFO  bot.BotOpenCorporatesApplication - No active profile set, falling back to default profiles: default
+2021-12-31 00:33:57.610 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:33:57.613 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:33:57.617 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2021-12-31 00:33:57.623 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2021-12-31 00:33:57.639 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 2s
+2021-12-31 00:33:57.790 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-12-31 00:33:57.838 [main] INFO  bot.BotOpenCorporatesApplication - Started BotOpenCorporatesApplication in 1.333 seconds (JVM running for 1.966)
+2021-12-31 00:33:59.628 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 4s
+2021-12-31 00:33:59.628 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 4s
+2021-12-31 00:33:59.628 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:33:59.628 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:33:59.643 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 4s
+2021-12-31 00:34:01.631 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:34:01.631 [pool-1-thread-1] INFO  b.application.OpenCorporatesCrawler - Crawling a record - Parameters {}
+2021-12-31 00:34:03.191 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/users/sign_in
+2021-12-31 00:34:03.643 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 8s
+2021-12-31 00:34:03.643 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 8s
+2021-12-31 00:34:03.658 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 8s
+2021-12-31 00:34:03.942 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 200 - https://opencorporates.com/users/sign_in
+2021-12-31 00:34:04.290 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/users/account
+2021-12-31 00:34:05.356 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/br?page=
+2021-12-31 00:34:06.458 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/br?page=
+2021-12-31 00:34:07.699 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/br?page=
+2021-12-31 00:34:09.196 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/br?page=
+2021-12-31 00:34:10.434 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/br?page=
+2021-12-31 00:34:11.403 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/br?page=
+2021-12-31 00:34:11.643 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 16s
+2021-12-31 00:34:11.643 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 16s
+2021-12-31 00:34:11.659 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 16s
+2021-12-31 00:34:12.680 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/br?page=
+2021-12-31 00:34:13.911 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/br?page=
+2021-12-31 00:34:14.810 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/br?page=
+2021-12-31 00:34:16.507 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/br?page=
+2021-12-31 00:34:17.627 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/br?page=
+2021-12-31 00:34:18.672 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/br?page=
+2021-12-31 00:34:20.292 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/br?page=
+2021-12-31 00:34:21.502 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/br?page=
+2021-12-31 00:34:22.820 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/br?page=
+2021-12-31 00:34:23.912 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/br?page=
+2021-12-31 00:34:25.075 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/br?page=
+2021-12-31 00:34:26.197 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/br?page=
+2021-12-31 00:34:26.732 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-12-31 00:37:37.326 [main] INFO  bot.BotOpenCorporatesApplication - Starting BotOpenCorporatesApplication using Java 11.0.11 on DESKTOP-KN5OJOB with PID 10384 (C:\Users\pedro\Desktop\Predictus\Dev\bot-opencorporates\target\classes started by pedro in C:\Users\pedro\Desktop\Predictus\Dev\bot-opencorporates)
+2021-12-31 00:37:37.329 [main] INFO  bot.BotOpenCorporatesApplication - No active profile set, falling back to default profiles: default
+2021-12-31 00:37:38.006 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:37:38.009 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:37:38.012 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2021-12-31 00:37:38.018 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2021-12-31 00:37:38.033 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 2s
+2021-12-31 00:37:38.181 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-12-31 00:37:38.227 [main] INFO  bot.BotOpenCorporatesApplication - Started BotOpenCorporatesApplication in 1.288 seconds (JVM running for 1.895)
+2021-12-31 00:37:40.018 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:37:40.018 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 4s
+2021-12-31 00:37:40.018 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:37:40.018 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 4s
+2021-12-31 00:37:40.034 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 4s
+2021-12-31 00:37:42.024 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:37:42.024 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:37:44.030 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 8s
+2021-12-31 00:37:44.030 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 8s
+2021-12-31 00:37:44.030 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:37:44.030 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:37:44.046 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 8s
+2021-12-31 00:37:46.037 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:37:46.037 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:37:48.049 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:37:48.049 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:37:50.061 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:37:50.061 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:37:52.032 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 16s
+2021-12-31 00:37:52.032 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 16s
+2021-12-31 00:37:52.048 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 16s
+2021-12-31 00:37:52.063 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:37:52.063 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:37:54.064 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:37:54.064 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:37:56.077 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:37:56.077 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:37:58.083 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:37:58.083 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:38:00.097 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:38:00.097 [pool-1-thread-1] INFO  b.application.OpenCorporatesCrawler - Crawling a record - Parameters {}
+2021-12-31 00:38:01.741 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/users/sign_in
+2021-12-31 00:38:02.489 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 200 - https://opencorporates.com/users/sign_in
+2021-12-31 00:38:02.810 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/users/account
+2021-12-31 00:38:02.815 [pool-1-thread-1] INFO  b.application.OpenCorporatesCrawler - Record status PROXY_ERROR crawled - Parameters {}
+2021-12-31 00:38:02.817 [pool-1-thread-1] ERROR b.application.OpenCorporatesCrawler - Proxy exception
+bot.exceptions.ProxyException: Proxy exception
+	at bot.application.OpenCorporatesCrawler.doHttpRequest(OpenCorporatesCrawler.java:170)
+	at bot.application.OpenCorporatesCrawler.harvest(OpenCorporatesCrawler.java:91)
+	at bot.runnables.Crawler.run(Crawler.java:93)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-12-31 00:38:02.817 [pool-1-thread-1] INFO  b.a.LoggingApplicationService - Logging status PROXY_ERROR for the bot-opencorporates
+2021-12-31 00:38:03.536 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2021-12-31 00:38:03.536 [pool-1-thread-1] INFO  b.a.LoggingApplicationService - Logging execution 3439 milliseconds for the bot-opencorporates
+2021-12-31 00:38:03.703 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2021-12-31 00:38:03.703 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:38:03.703 [pool-1-thread-1] INFO  b.application.OpenCorporatesCrawler - Crawling a record - Parameters {QTD_RETRIES=1}
+2021-12-31 00:38:03.991 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/users/sign_in
+2021-12-31 00:38:04.687 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 200 - https://opencorporates.com/users/sign_in
+2021-12-31 00:38:05.007 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/users/account
+2021-12-31 00:38:05.008 [pool-1-thread-1] INFO  b.application.OpenCorporatesCrawler - Record status PROXY_ERROR crawled - Parameters {QTD_RETRIES=1}
+2021-12-31 00:38:05.008 [pool-1-thread-1] ERROR b.application.OpenCorporatesCrawler - Proxy exception
+bot.exceptions.ProxyException: Proxy exception
+	at bot.application.OpenCorporatesCrawler.doHttpRequest(OpenCorporatesCrawler.java:170)
+	at bot.application.OpenCorporatesCrawler.harvest(OpenCorporatesCrawler.java:91)
+	at bot.runnables.Crawler.run(Crawler.java:93)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-12-31 00:38:05.008 [pool-1-thread-1] INFO  b.a.LoggingApplicationService - Logging status PROXY_ERROR for the bot-opencorporates
+2021-12-31 00:38:05.183 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2021-12-31 00:38:05.183 [pool-1-thread-1] INFO  b.a.LoggingApplicationService - Logging execution 1479 milliseconds for the bot-opencorporates
+2021-12-31 00:38:05.345 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2021-12-31 00:38:05.345 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:38:05.345 [pool-1-thread-1] INFO  b.application.OpenCorporatesCrawler - Crawling a record - Parameters {QTD_RETRIES=2}
+2021-12-31 00:38:05.656 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/users/sign_in
+2021-12-31 00:38:06.330 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 200 - https://opencorporates.com/users/sign_in
+2021-12-31 00:38:06.658 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/users/account
+2021-12-31 00:38:06.658 [pool-1-thread-1] INFO  b.application.OpenCorporatesCrawler - Record status PROXY_ERROR crawled - Parameters {QTD_RETRIES=2}
+2021-12-31 00:38:06.658 [pool-1-thread-1] ERROR b.application.OpenCorporatesCrawler - Proxy exception
+bot.exceptions.ProxyException: Proxy exception
+	at bot.application.OpenCorporatesCrawler.doHttpRequest(OpenCorporatesCrawler.java:170)
+	at bot.application.OpenCorporatesCrawler.harvest(OpenCorporatesCrawler.java:91)
+	at bot.runnables.Crawler.run(Crawler.java:93)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-12-31 00:38:06.658 [pool-1-thread-1] INFO  b.a.LoggingApplicationService - Logging status PROXY_ERROR for the bot-opencorporates
+2021-12-31 00:38:06.836 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2021-12-31 00:38:06.836 [pool-1-thread-1] INFO  b.a.LoggingApplicationService - Logging execution 1491 milliseconds for the bot-opencorporates
+2021-12-31 00:38:07.002 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2021-12-31 00:38:07.002 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:38:07.002 [pool-1-thread-1] INFO  b.application.OpenCorporatesCrawler - Crawling a record - Parameters {QTD_RETRIES=3}
+2021-12-31 00:38:07.444 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/users/sign_in
+2021-12-31 00:38:08.037 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 20s
+2021-12-31 00:38:08.037 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 20s
+2021-12-31 00:38:08.053 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 30s
+2021-12-31 00:38:09.524 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 200 - https://opencorporates.com/users/sign_in
+2021-12-31 00:38:09.869 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/users/account
+2021-12-31 00:38:09.869 [pool-1-thread-1] INFO  b.application.OpenCorporatesCrawler - Record status PROXY_ERROR crawled - Parameters {QTD_RETRIES=3}
+2021-12-31 00:38:09.869 [pool-1-thread-1] ERROR b.application.OpenCorporatesCrawler - Proxy exception
+bot.exceptions.ProxyException: Proxy exception
+	at bot.application.OpenCorporatesCrawler.doHttpRequest(OpenCorporatesCrawler.java:170)
+	at bot.application.OpenCorporatesCrawler.harvest(OpenCorporatesCrawler.java:91)
+	at bot.runnables.Crawler.run(Crawler.java:93)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-12-31 00:38:09.870 [pool-1-thread-1] INFO  b.a.LoggingApplicationService - Logging status PROXY_ERROR for the bot-opencorporates
+2021-12-31 00:38:10.046 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2021-12-31 00:38:10.046 [pool-1-thread-1] INFO  b.a.LoggingApplicationService - Logging execution 3043 milliseconds for the bot-opencorporates
+2021-12-31 00:38:10.214 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2021-12-31 00:38:10.214 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:38:10.215 [pool-1-thread-1] INFO  b.application.OpenCorporatesCrawler - Crawling a record - Parameters {QTD_RETRIES=4}
+2021-12-31 00:38:10.547 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/users/sign_in
+2021-12-31 00:38:11.212 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 200 - https://opencorporates.com/users/sign_in
+2021-12-31 00:38:11.510 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/users/account
+2021-12-31 00:38:11.511 [pool-1-thread-1] INFO  b.application.OpenCorporatesCrawler - Record status PROXY_ERROR crawled - Parameters {QTD_RETRIES=4}
+2021-12-31 00:38:11.511 [pool-1-thread-1] ERROR b.application.OpenCorporatesCrawler - Proxy exception
+bot.exceptions.ProxyException: Proxy exception
+	at bot.application.OpenCorporatesCrawler.doHttpRequest(OpenCorporatesCrawler.java:170)
+	at bot.application.OpenCorporatesCrawler.harvest(OpenCorporatesCrawler.java:91)
+	at bot.runnables.Crawler.run(Crawler.java:93)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-12-31 00:38:11.511 [pool-1-thread-1] INFO  b.a.LoggingApplicationService - Logging status PROXY_ERROR for the bot-opencorporates
+2021-12-31 00:38:11.677 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2021-12-31 00:38:11.677 [pool-1-thread-1] INFO  b.a.LoggingApplicationService - Logging execution 1462 milliseconds for the bot-opencorporates
+2021-12-31 00:38:11.844 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2021-12-31 00:38:11.844 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:38:11.844 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:38:13.860 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:38:13.860 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:38:15.868 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:38:15.868 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:38:17.879 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:38:17.879 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:38:19.882 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:38:19.882 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:38:21.889 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:38:21.889 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:38:23.892 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:38:23.892 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:38:25.895 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:38:25.895 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:38:27.902 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:38:27.902 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:38:28.042 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 20s
+2021-12-31 00:38:28.048 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record with status UNKNOWN_ERROR - Input=null
+2021-12-31 00:38:28.048 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2021-12-31 00:38:29.910 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:38:29.910 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:38:30.050 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 4s
+2021-12-31 00:38:31.912 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:38:31.912 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:38:33.917 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:38:33.917 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:38:34.055 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 8s
+2021-12-31 00:38:35.920 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:38:35.920 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:38:37.927 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:38:37.927 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:38:38.068 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 30s
+2021-12-31 00:38:39.222 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-12-31 00:43:18.559 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 8s
+2021-12-31 00:43:18.559 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 8s
+2021-12-31 00:43:18.559 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 8s
+2021-12-31 00:43:18.559 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 00:43:18.560 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 00:43:18.585 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-12-31 12:03:00.938 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [qa.BotQaTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-12-31 12:03:01.202 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener]
+2021-12-31 12:03:01.221 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4ae33a11, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7a48e6e2, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@b40bb6e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3a94964, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5049d8b2, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6d0b5baf, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@631e06ab, org.springframework.test.context.event.EventPublishingTestExecutionListener@2a3591c5, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@34a75079, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@346a361, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@107ed6fc, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1643d68f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@186978a6, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2e029d61]
+2021-12-31 12:03:01.626 [main] INFO  qa.BotQaTest - Starting BotQaTest using Java 11.0.11 on DESKTOP-KN5OJOB with PID 15920 (started by pedro in C:\Users\pedro\Desktop\Predictus\Dev\bot-opencorporates)
+2021-12-31 12:03:01.628 [main] INFO  qa.BotQaTest - No active profile set, falling back to default profiles: default
+2021-12-31 12:03:02.544 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 12:03:02.548 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 12:03:02.554 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2021-12-31 12:03:02.563 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2021-12-31 12:03:02.582 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 2s
+2021-12-31 12:03:02.886 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-12-31 12:03:02.985 [main] INFO  qa.BotQaTest - Started BotQaTest in 1.704 seconds (JVM running for 3.597)
+2021-12-31 12:03:34.194 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 4s
+2021-12-31 12:03:34.194 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 4s
+2021-12-31 12:03:34.194 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 4s
+2021-12-31 12:03:34.194 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 12:03:34.195 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 12:03:34.290 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-12-31 12:03:37.745 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [qa.BotQaTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-12-31 12:03:37.960 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener]
+2021-12-31 12:03:37.977 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4ae33a11, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7a48e6e2, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@b40bb6e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3a94964, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5049d8b2, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6d0b5baf, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@631e06ab, org.springframework.test.context.event.EventPublishingTestExecutionListener@2a3591c5, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@34a75079, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@346a361, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@107ed6fc, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1643d68f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@186978a6, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2e029d61]
+2021-12-31 12:03:38.357 [main] INFO  qa.BotQaTest - Starting BotQaTest using Java 11.0.11 on DESKTOP-KN5OJOB with PID 904 (started by pedro in C:\Users\pedro\Desktop\Predictus\Dev\bot-opencorporates)
+2021-12-31 12:03:38.359 [main] INFO  qa.BotQaTest - No active profile set, falling back to default profiles: default
+2021-12-31 12:03:39.161 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 12:03:39.165 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 12:03:39.172 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2021-12-31 12:03:39.182 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2021-12-31 12:03:39.202 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 2s
+2021-12-31 12:03:39.503 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-12-31 12:03:39.576 [main] INFO  qa.BotQaTest - Started BotQaTest in 1.554 seconds (JVM running for 2.924)
+2021-12-31 12:03:40.050 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-12-31 12:04:21.341 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [qa.BotQaTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-12-31 12:04:21.596 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener]
+2021-12-31 12:04:21.613 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4ae33a11, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7a48e6e2, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@b40bb6e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3a94964, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5049d8b2, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6d0b5baf, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@631e06ab, org.springframework.test.context.event.EventPublishingTestExecutionListener@2a3591c5, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@34a75079, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@346a361, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@107ed6fc, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1643d68f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@186978a6, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2e029d61]
+2021-12-31 12:04:21.976 [main] INFO  qa.BotQaTest - Starting BotQaTest using Java 11.0.11 on DESKTOP-KN5OJOB with PID 14988 (started by pedro in C:\Users\pedro\Desktop\Predictus\Dev\bot-opencorporates)
+2021-12-31 12:04:21.978 [main] INFO  qa.BotQaTest - No active profile set, falling back to default profiles: default
+2021-12-31 12:04:22.793 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 12:04:22.797 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 12:04:22.804 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2021-12-31 12:04:22.814 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2021-12-31 12:04:22.832 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 2s
+2021-12-31 12:04:23.082 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-12-31 12:04:23.159 [main] INFO  qa.BotQaTest - Started BotQaTest in 1.498 seconds (JVM running for 2.833)
+2021-12-31 12:06:23.082 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 4s
+2021-12-31 12:06:23.082 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 4s
+2021-12-31 12:06:23.082 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2021-12-31 12:06:23.082 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 4s
+2021-12-31 12:06:23.083 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2021-12-31 12:06:23.110 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
