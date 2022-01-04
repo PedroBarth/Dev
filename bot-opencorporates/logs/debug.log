@@ -5791,3 +5791,1459 @@ java.lang.NullPointerException: null
 2022-01-04 13:18:52.372 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/bs/47400B
 2022-01-04 13:18:55.455 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/bs?page=4&q=technology&utf8=%E2%9C%93
 2022-01-04 13:18:56.865 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2022-01-04 13:24:35.471 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 30s
+2022-01-04 13:24:35.471 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 20s
+2022-01-04 13:24:35.471 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 20s
+2022-01-04 13:24:35.471 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 13:24:35.473 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 13:24:35.497 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2022-01-04 14:24:01.326 [main] INFO  bot.BotOpenCorporatesApplication - Starting BotOpenCorporatesApplication using Java 11.0.11 on DESKTOP-KN5OJOB with PID 3980 (C:\Users\pedro\Desktop\Predictus\Dev\bot-opencorporates\target\classes started by pedro in C:\Users\pedro\Desktop\Predictus\Dev\bot-opencorporates)
+2022-01-04 14:24:01.328 [main] INFO  bot.BotOpenCorporatesApplication - No active profile set, falling back to default profiles: default
+2022-01-04 14:24:01.939 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:24:01.942 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:24:01.946 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:24:01.950 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:24:01.964 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 2s
+2022-01-04 14:24:02.095 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2022-01-04 14:24:02.138 [main] INFO  bot.BotOpenCorporatesApplication - Started BotOpenCorporatesApplication in 1.203 seconds (JVM running for 1.77)
+2022-01-04 14:24:03.946 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:24:03.946 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:24:03.962 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 4s
+2022-01-04 14:24:03.962 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 4s
+2022-01-04 14:24:03.978 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 4s
+2022-01-04 14:24:05.961 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:24:05.961 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:24:07.968 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 8s
+2022-01-04 14:24:07.968 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:24:07.968 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 8s
+2022-01-04 14:24:07.968 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:24:07.984 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 8s
+2022-01-04 14:24:09.972 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:24:09.972 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:24:11.987 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:24:11.987 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:24:14.002 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:24:14.002 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:24:15.970 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 16s
+2022-01-04 14:24:15.970 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 16s
+2022-01-04 14:24:15.986 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 16s
+2022-01-04 14:24:16.016 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:24:16.016 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:24:18.024 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:24:18.024 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:24:20.039 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:24:20.039 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:24:22.044 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:24:22.044 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:24:24.057 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:24:24.057 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:24:26.061 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:24:26.061 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:24:28.066 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:24:28.066 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:24:30.078 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:24:30.078 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:24:31.977 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 20s
+2022-01-04 14:24:31.977 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 20s
+2022-01-04 14:24:31.993 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 30s
+2022-01-04 14:24:32.087 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:24:32.087 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:24:34.100 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:24:34.100 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:24:36.102 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:24:36.102 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:24:38.106 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:24:38.106 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:24:40.116 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:24:40.116 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:24:42.129 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:24:42.129 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:24:44.135 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:24:44.135 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:24:46.145 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:24:46.145 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:24:48.155 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:24:48.155 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:24:50.164 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:24:50.164 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:24:51.986 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 20s
+2022-01-04 14:24:51.986 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 20s
+2022-01-04 14:24:52.174 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:24:52.174 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:24:54.178 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:24:54.178 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:24:56.182 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:24:56.182 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:24:58.192 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:24:58.192 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:25:00.194 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:25:00.194 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:25:02.008 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 30s
+2022-01-04 14:25:02.196 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:25:02.196 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:25:04.204 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:25:04.209 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:25:06.221 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:25:06.221 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:25:08.225 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:25:08.225 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:25:10.238 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:25:10.238 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:25:12.000 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 20s
+2022-01-04 14:25:12.000 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 20s
+2022-01-04 14:25:12.251 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:25:12.251 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:25:14.258 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:25:14.258 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:25:16.270 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:25:16.270 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:25:18.274 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:25:18.274 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:25:20.279 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:25:20.279 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:25:22.288 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:25:22.288 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:25:24.291 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:25:24.291 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:25:26.293 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:25:26.293 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:25:28.299 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:25:28.299 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:25:30.309 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:25:30.309 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:25:30.930 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2022-01-04 14:25:39.613 [main] INFO  bot.BotOpenCorporatesApplication - Starting BotOpenCorporatesApplication using Java 11.0.11 on DESKTOP-KN5OJOB with PID 10380 (C:\Users\pedro\Desktop\Predictus\Dev\bot-opencorporates\target\classes started by pedro in C:\Users\pedro\Desktop\Predictus\Dev\bot-opencorporates)
+2022-01-04 14:25:39.616 [main] INFO  bot.BotOpenCorporatesApplication - No active profile set, falling back to default profiles: default
+2022-01-04 14:25:40.291 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:25:40.294 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:25:40.297 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:25:40.301 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:25:40.316 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 2s
+2022-01-04 14:25:40.452 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2022-01-04 14:25:40.495 [main] INFO  bot.BotOpenCorporatesApplication - Started BotOpenCorporatesApplication in 1.264 seconds (JVM running for 1.851)
+2022-01-04 14:25:42.299 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 4s
+2022-01-04 14:25:42.299 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:25:42.299 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:25:42.315 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 4s
+2022-01-04 14:25:42.331 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 4s
+2022-01-04 14:25:44.302 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:25:44.302 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:25:46.309 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:25:46.309 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 8s
+2022-01-04 14:25:46.309 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:25:46.325 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 8s
+2022-01-04 14:25:46.340 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 8s
+2022-01-04 14:25:48.310 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:25:48.310 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:25:50.312 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:25:50.312 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:25:52.318 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:25:52.318 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:25:54.317 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 16s
+2022-01-04 14:25:54.333 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:25:54.333 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 16s
+2022-01-04 14:25:54.333 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:25:54.348 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 16s
+2022-01-04 14:25:56.341 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:25:56.341 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:25:58.352 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:25:58.352 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:26:00.353 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:26:00.353 [pool-1-thread-1] INFO  b.application.OpenCorporatesCrawler - Crawling a record - Parameters {}
+2022-01-04 14:26:03.669 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/users/sign_in
+2022-01-04 14:26:08.580 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 200 - https://opencorporates.com/users/sign_in
+2022-01-04 14:26:09.182 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/users/account
+2022-01-04 14:26:10.047 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/al?q=query&utf8=✓
+2022-01-04 14:26:10.322 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 20s
+2022-01-04 14:26:10.337 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 20s
+2022-01-04 14:26:10.352 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 30s
+2022-01-04 14:26:10.934 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/aw?q=query&utf8=✓
+2022-01-04 14:26:12.226 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/au?q=query&utf8=✓
+2022-01-04 14:26:15.758 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/638396782
+2022-01-04 14:26:17.345 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/621374196
+2022-01-04 14:26:19.167 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/165589999
+2022-01-04 14:26:21.204 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/640000111
+2022-01-04 14:26:22.752 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/604516476
+2022-01-04 14:26:24.525 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/618956915
+2022-01-04 14:26:26.345 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/167090799
+2022-01-04 14:26:27.905 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/629187695
+2022-01-04 14:26:29.529 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/615615131
+2022-01-04 14:26:30.334 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 20s
+2022-01-04 14:26:30.349 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:26:30.398 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:26:31.099 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:26:31.099 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:26:31.101 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:26:31.271 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:26:31.271 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:26:31.273 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:26:31.425 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/620829209
+2022-01-04 14:26:31.438 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:26:31.438 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:26:31.439 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:26:31.600 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:26:31.600 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:26:31.601 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:26:31.783 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:26:31.783 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:26:31.784 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:26:31.948 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:26:31.948 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:26:31.950 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:26:32.134 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:26:32.134 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:26:32.135 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:26:32.312 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:26:32.312 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:26:32.313 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:26:32.473 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:26:32.473 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:26:32.474 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:26:32.638 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:26:32.639 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:26:33.399 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/bs?q=query&utf8=✓
+2022-01-04 14:26:34.647 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 4s
+2022-01-04 14:26:35.015 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/bs/125828B
+2022-01-04 14:26:38.656 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:26:38.657 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:26:39.323 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:26:39.323 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:26:40.365 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 30s
+2022-01-04 14:26:40.562 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/bh?q=query&utf8=✓
+2022-01-04 14:26:41.330 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 4s
+2022-01-04 14:26:41.542 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/bd?q=query&utf8=✓
+2022-01-04 14:26:44.902 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/bd/3-605
+2022-01-04 14:26:45.343 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:26:45.344 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:26:45.998 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:26:45.998 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:26:47.525 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/bb?q=query&utf8=✓
+2022-01-04 14:26:48.008 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 4s
+2022-01-04 14:26:50.345 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:26:50.347 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:26:50.347 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:26:50.348 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:26:50.349 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:26:50.350 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:26:50.350 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:26:50.351 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:26:50.352 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:26:50.352 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:26:50.353 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:26:50.354 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:26:50.354 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:26:50.355 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:26:50.356 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:26:50.357 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:26:50.357 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:26:50.358 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:26:50.358 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:26:50.359 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:26:50.359 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:26:50.360 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:26:50.360 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:26:50.361 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:26:50.361 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:26:52.020 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 8s
+2022-01-04 14:26:52.366 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 4s
+2022-01-04 14:26:53.202 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/by?q=query&utf8=✓
+2022-01-04 14:26:53.903 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/be?q=query&utf8=✓
+2022-01-04 14:26:54.813 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/bz?q=query&utf8=✓
+2022-01-04 14:26:56.380 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 8s
+2022-01-04 14:27:00.034 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 16s
+2022-01-04 14:27:00.589 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/bm?q=query&utf8=✓
+2022-01-04 14:27:01.524 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/bo?q=query&utf8=✓
+2022-01-04 14:27:02.884 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/br?q=query&utf8=✓
+2022-01-04 14:27:04.388 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 16s
+2022-01-04 14:27:06.669 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/br/00961161000141
+2022-01-04 14:27:08.490 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/br/04201211000143
+2022-01-04 14:27:10.293 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/br/08191534000154
+2022-01-04 14:27:10.374 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 30s
+2022-01-04 14:27:12.014 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/br/07935832000149
+2022-01-04 14:27:13.679 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/br/04819170000153
+2022-01-04 14:27:15.356 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/br/18573364000126
+2022-01-04 14:27:16.048 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:27:16.050 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:27:16.720 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:27:16.720 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:27:16.721 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:27:16.880 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:27:16.881 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:27:16.882 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:27:17.047 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:27:17.047 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:27:17.048 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:27:17.212 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:27:17.212 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:27:17.213 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:27:17.335 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/br/74595174000180
+2022-01-04 14:27:17.376 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:27:17.376 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:27:17.377 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:27:17.540 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:27:17.541 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:27:17.541 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:27:17.719 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:27:17.720 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:27:19.352 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/br/02349325000100
+2022-01-04 14:27:19.734 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:27:19.735 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:27:19.912 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:27:19.912 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:27:20.394 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:27:20.394 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:27:20.394 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:27:20.395 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:27:20.395 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:27:20.395 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:27:20.395 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:27:20.396 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:27:20.396 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:27:20.396 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:27:20.396 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:27:20.396 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:27:20.396 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:27:20.397 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:27:20.397 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:27:20.397 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:27:20.397 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:27:21.072 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/br/03979204000104
+2022-01-04 14:27:21.915 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:27:21.916 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:27:22.093 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:27:22.093 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:27:22.400 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:27:22.400 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:27:22.400 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:27:23.012 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/br/32310104000199
+2022-01-04 14:27:24.099 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:27:24.100 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:27:24.295 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:27:24.295 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:27:24.412 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:27:24.412 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:27:24.412 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:27:25.145 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/br/03254498000107
+2022-01-04 14:27:26.300 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:27:26.301 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:27:26.426 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 4s
+2022-01-04 14:27:26.477 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:27:26.478 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:27:26.826 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/br/04381267000127
+2022-01-04 14:27:28.479 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:27:28.479 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:27:28.496 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/br/03826272000133
+2022-01-04 14:27:28.653 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:27:28.654 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:27:28.654 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:27:28.814 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:27:28.814 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:27:30.429 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:27:30.429 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:27:30.430 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:27:30.430 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:27:30.430 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:27:30.430 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:27:30.430 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:27:30.823 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 4s
+2022-01-04 14:27:31.020 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/bg?q=query&utf8=✓
+2022-01-04 14:27:32.176 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/kh?q=query&utf8=✓
+2022-01-04 14:27:32.444 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 4s
+2022-01-04 14:27:34.829 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 8s
+2022-01-04 14:27:35.124 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/country/ca?q=query&utf8=✓
+2022-01-04 14:27:35.721 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2022-01-04 14:28:09.027 [main] INFO  bot.BotOpenCorporatesApplication - Starting BotOpenCorporatesApplication using Java 11.0.11 on DESKTOP-KN5OJOB with PID 5404 (C:\Users\pedro\Desktop\Predictus\Dev\bot-opencorporates\target\classes started by pedro in C:\Users\pedro\Desktop\Predictus\Dev\bot-opencorporates)
+2022-01-04 14:28:09.030 [main] INFO  bot.BotOpenCorporatesApplication - No active profile set, falling back to default profiles: default
+2022-01-04 14:28:09.662 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:28:09.665 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:28:09.667 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:28:09.671 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:28:09.684 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 2s
+2022-01-04 14:28:09.811 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2022-01-04 14:28:09.853 [main] INFO  bot.BotOpenCorporatesApplication - Started BotOpenCorporatesApplication in 1.2 seconds (JVM running for 1.777)
+2022-01-04 14:28:11.670 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 4s
+2022-01-04 14:28:11.670 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:28:11.670 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:28:11.686 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 4s
+2022-01-04 14:28:11.686 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 4s
+2022-01-04 14:28:13.673 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:28:13.673 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:28:15.679 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 8s
+2022-01-04 14:28:15.679 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:28:15.679 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:28:15.694 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 8s
+2022-01-04 14:28:15.694 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 8s
+2022-01-04 14:28:17.694 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:28:17.694 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:28:19.707 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:28:19.707 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:28:21.708 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:28:21.708 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:28:23.680 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 16s
+2022-01-04 14:28:23.696 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 16s
+2022-01-04 14:28:23.696 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 16s
+2022-01-04 14:28:23.711 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:28:23.711 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:28:25.720 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:28:25.720 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:28:27.722 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:28:27.722 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:28:29.728 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:28:29.728 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:28:31.743 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:28:31.743 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:28:33.747 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:28:33.747 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:28:35.753 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:28:35.753 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:28:37.755 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:28:37.755 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:28:39.692 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 20s
+2022-01-04 14:28:39.707 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 20s
+2022-01-04 14:28:39.707 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 30s
+2022-01-04 14:28:39.769 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:28:39.769 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:28:41.782 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:28:41.782 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:28:43.783 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:28:43.783 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:28:45.783 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:28:45.783 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:28:47.794 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:28:47.794 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:28:49.794 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:28:49.794 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:28:51.796 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:28:51.796 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:28:53.800 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:28:53.800 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:28:55.805 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:28:55.805 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:28:57.819 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:28:57.819 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:28:59.704 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 20s
+2022-01-04 14:28:59.719 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 20s
+2022-01-04 14:28:59.830 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:28:59.830 [pool-1-thread-1] WARN  b.application.OpenCorporatesCrawler - No available records for the crawler to process, waiting at 2s
+2022-01-04 14:29:01.837 [pool-1-thread-1] INFO  b.a.input.QueueInputMessageBroker - Polling messages from queues - Queues size 0
+2022-01-04 14:29:01.837 [pool-1-thread-1] INFO  b.application.OpenCorporatesCrawler - Crawling a record - Parameters {}
+2022-01-04 14:29:04.512 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/users/sign_in
+2022-01-04 14:29:05.711 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 200 - https://opencorporates.com/users/sign_in
+2022-01-04 14:29:06.328 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/users/account
+2022-01-04 14:29:07.761 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/al?q=technology&utf8=✓
+2022-01-04 14:29:09.710 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 30s
+2022-01-04 14:29:11.663 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/al/L21811033B
+2022-01-04 14:29:13.358 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/al/J71624003T
+2022-01-04 14:29:14.918 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/al/K21428004O
+2022-01-04 14:29:16.727 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/al/L12409016N
+2022-01-04 14:29:18.348 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/al/K31615006S
+2022-01-04 14:29:19.705 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 20s
+2022-01-04 14:29:19.721 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:29:19.767 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:29:20.255 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/al/K81526014U
+2022-01-04 14:29:20.459 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:29:20.459 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:29:20.461 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:29:20.620 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:29:20.621 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:29:20.622 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:29:20.785 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:29:20.785 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:29:20.786 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:29:20.946 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:29:20.946 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:29:20.947 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:29:21.105 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:29:21.106 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:29:21.107 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:29:21.270 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:29:21.270 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:29:21.843 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/al/K81412041N
+2022-01-04 14:29:23.274 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:29:23.275 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:29:23.444 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/al/K62227014Q
+2022-01-04 14:29:23.447 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:29:23.448 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:29:23.449 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:29:23.611 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:29:23.611 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:29:25.443 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/al/K72216044G
+2022-01-04 14:29:25.615 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:29:25.616 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:29:25.858 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:29:25.859 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:29:27.115 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/al/K71814021U
+2022-01-04 14:29:27.867 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:29:27.868 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:29:28.047 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:29:28.047 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:29:28.655 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/al/K82221017M
+2022-01-04 14:29:30.052 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:29:30.053 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:29:30.227 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:29:30.227 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:29:30.483 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/al/K91929010Q
+2022-01-04 14:29:32.123 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/al/L12421004E
+2022-01-04 14:29:32.235 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:29:32.235 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:29:32.435 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:29:32.436 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:29:32.437 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:29:32.652 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:29:32.652 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:29:33.625 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/al/K52109501N
+2022-01-04 14:29:34.652 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:29:34.653 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:29:34.832 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:29:34.832 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:29:35.217 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/al/K81618020E
+2022-01-04 14:29:36.835 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/al/L11326002I
+2022-01-04 14:29:36.847 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:29:36.847 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:29:37.026 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:29:37.026 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:29:37.027 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:29:37.185 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:29:37.185 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:29:39.197 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 4s
+2022-01-04 14:29:39.224 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/al/K92109016L
+2022-01-04 14:29:39.715 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 30s
+2022-01-04 14:29:39.720 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:29:39.721 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:29:39.721 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:29:39.722 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:29:39.722 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:29:39.722 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:29:39.722 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:29:39.722 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:29:39.722 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:29:39.723 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:29:39.723 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:29:39.723 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:29:39.723 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:29:39.724 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:29:39.724 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:29:39.724 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:29:39.724 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:29:39.724 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:29:39.724 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:29:39.725 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:29:39.725 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:29:39.725 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:29:39.725 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:29:39.725 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:29:39.726 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:29:39.726 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:29:39.726 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:29:39.726 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:29:39.726 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:29:39.727 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:29:39.727 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:29:39.727 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:29:39.727 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:29:40.797 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/al/L11803002A
+2022-01-04 14:29:41.731 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 4s
+2022-01-04 14:29:42.658 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/al/J61911006J
+2022-01-04 14:29:43.209 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:29:43.209 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:29:43.943 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:29:43.943 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:29:43.944 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:29:44.109 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:29:44.110 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:29:44.110 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:29:44.275 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:29:44.275 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:29:44.795 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/al/J62211502L
+2022-01-04 14:29:45.742 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:29:45.742 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:29:45.742 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:29:45.743 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:29:45.743 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:29:45.743 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:29:45.743 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:29:46.276 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:29:46.276 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:29:46.373 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/al/K72330003U
+2022-01-04 14:29:46.450 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:29:46.450 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:29:46.450 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:29:46.613 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:29:46.613 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:29:47.755 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:29:47.755 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:29:47.755 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:29:47.756 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:29:47.756 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:29:47.922 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/al/L02213022B
+2022-01-04 14:29:48.615 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:29:48.615 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:29:48.788 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:29:48.788 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:29:49.757 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:29:49.757 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:29:49.757 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:29:49.758 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/al/L02302032C
+2022-01-04 14:29:50.790 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:29:50.790 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:29:50.964 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:29:50.964 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:29:51.537 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/al/L12101002R
+2022-01-04 14:29:51.761 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:29:51.761 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:29:51.761 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:29:52.965 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:29:52.965 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:29:53.199 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:29:53.199 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:29:53.208 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/al/L16601003C
+2022-01-04 14:29:53.762 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:29:53.762 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:29:53.762 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:29:54.888 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/al/K82402001G
+2022-01-04 14:29:55.201 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:29:55.201 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:29:55.375 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:29:55.375 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:29:55.376 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:29:55.535 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:29:55.535 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:29:55.777 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:29:55.777 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:29:55.777 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:29:55.778 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:29:55.778 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:29:56.719 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/al/L11416013A
+2022-01-04 14:29:57.543 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:29:57.543 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:29:57.717 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:29:57.717 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:29:57.794 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:29:57.814 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:29:57.815 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:29:58.614 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/al/K72307011L
+2022-01-04 14:29:59.728 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:29:59.728 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:29:59.822 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 4s
+2022-01-04 14:29:59.903 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:29:59.903 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:30:00.455 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/al/L11815023N
+2022-01-04 14:30:01.904 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:30:01.904 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:30:02.031 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/al/L17218701L
+2022-01-04 14:30:02.079 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:30:02.080 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:30:02.080 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:30:02.239 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:30:02.240 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:30:03.829 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:30:03.829 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:30:03.829 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:30:03.830 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:30:03.830 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:30:03.830 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:30:03.830 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:30:04.249 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 4s
+2022-01-04 14:30:05.672 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/al?page=2&q=technology&utf8=%E2%9C%93
+2022-01-04 14:30:05.842 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 4s
+2022-01-04 14:30:08.259 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 8s
+2022-01-04 14:30:09.520 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/al/L01621019I
+2022-01-04 14:30:09.730 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 30s
+2022-01-04 14:30:09.855 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 8s
+2022-01-04 14:30:12.898 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/aw?q=technology&utf8=✓
+2022-01-04 14:30:16.180 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/39156-0
+2022-01-04 14:30:16.274 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:30:16.274 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:30:16.942 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:30:16.942 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:30:16.943 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:30:17.106 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:30:17.106 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:30:17.745 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/43117-0
+2022-01-04 14:30:17.864 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:30:17.864 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:30:17.864 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:30:17.865 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:30:17.865 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:30:19.109 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:30:19.109 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:30:19.289 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:30:19.290 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:30:19.827 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/25261-0
+2022-01-04 14:30:19.880 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:30:19.880 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:30:19.880 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:30:21.300 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:30:21.301 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:30:21.478 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:30:21.478 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:30:21.547 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/16678-0
+2022-01-04 14:30:21.895 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:30:21.895 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:30:21.895 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:30:23.370 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/33695-0
+2022-01-04 14:30:23.480 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:30:23.480 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:30:23.656 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:30:23.656 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:30:23.656 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:30:23.816 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:30:23.816 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:30:23.899 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:30:23.899 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:30:23.899 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:30:23.900 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:30:23.900 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:30:24.996 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/36867-0
+2022-01-04 14:30:25.826 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:30:25.827 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:30:25.904 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 4s
+2022-01-04 14:30:26.002 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:30:26.002 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:30:26.540 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/19771-0
+2022-01-04 14:30:28.009 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:30:28.009 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:30:28.183 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:30:28.183 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:30:28.721 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/21042-0
+2022-01-04 14:30:29.916 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:30:29.916 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:30:29.916 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:30:29.917 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:30:29.917 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:30:30.195 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:30:30.196 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:30:30.368 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:30:30.369 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:30:30.481 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/24809-0
+2022-01-04 14:30:31.928 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:30:31.928 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:30:31.928 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:30:32.091 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/30915-0
+2022-01-04 14:30:32.384 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:30:32.384 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:30:32.712 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:30:32.713 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:30:32.713 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:30:32.950 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:30:32.950 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:30:33.635 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/20797-0
+2022-01-04 14:30:33.929 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:30:33.929 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:30:33.929 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:30:33.930 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:30:33.930 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:30:34.961 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:30:34.961 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:30:35.135 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:30:35.136 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:30:35.266 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/41023-0
+2022-01-04 14:30:35.931 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:30:35.931 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:30:35.931 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:30:36.872 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/19241-0
+2022-01-04 14:30:37.150 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:30:37.150 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:30:37.325 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:30:37.325 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:30:37.326 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:30:37.494 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:30:37.494 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:30:37.944 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:30:37.944 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:30:37.944 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:30:37.945 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:30:37.945 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:30:38.985 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/20323-0
+2022-01-04 14:30:39.501 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:30:39.501 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:30:39.676 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:30:39.676 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:30:39.744 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 30s
+2022-01-04 14:30:39.946 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:30:39.946 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:30:39.946 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:30:40.576 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/13869-0
+2022-01-04 14:30:41.688 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:30:41.688 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:30:41.861 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:30:41.861 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:30:41.954 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:30:41.954 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:30:41.954 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:30:42.286 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/36050-0
+2022-01-04 14:30:43.842 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/10726-0
+2022-01-04 14:30:43.866 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:30:43.866 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:30:43.959 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 4s
+2022-01-04 14:30:44.040 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:30:44.040 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:30:44.041 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:30:44.201 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:30:44.201 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:30:45.631 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/16993-0
+2022-01-04 14:30:46.202 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:30:46.202 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:30:46.377 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:30:46.377 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:30:47.452 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/30184-0
+2022-01-04 14:30:47.960 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:30:47.960 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:30:47.960 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:30:47.961 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:30:47.961 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:30:47.961 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:30:47.961 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:30:48.385 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:30:48.385 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:30:48.559 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:30:48.559 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:30:48.947 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/44905-0
+2022-01-04 14:30:49.968 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:30:49.968 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:30:49.968 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:30:50.560 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:30:50.560 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:30:50.738 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:30:50.738 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:30:50.774 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/28780-0
+2022-01-04 14:30:51.981 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:30:51.981 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:30:51.981 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:30:52.553 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/28544-0
+2022-01-04 14:30:52.745 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:30:52.745 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:30:52.934 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:30:52.934 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:30:52.934 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:30:53.108 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:30:53.109 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:30:53.997 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:30:53.997 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:30:53.997 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:30:53.998 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:30:53.998 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:30:54.475 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/40885-0
+2022-01-04 14:30:55.119 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:30:55.119 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:30:55.349 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:30:55.350 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:30:56.010 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:30:56.010 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:30:56.010 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:30:56.113 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/11325-0
+2022-01-04 14:30:57.359 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:30:57.359 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:30:57.569 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:30:57.569 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:30:57.691 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/21724-0
+2022-01-04 14:30:58.020 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:30:58.020 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:30:58.020 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:30:59.202 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/25327-0
+2022-01-04 14:30:59.583 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:30:59.583 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:30:59.757 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:30:59.757 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:30:59.758 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:30:59.918 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:30:59.919 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:31:00.035 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:31:00.035 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:31:00.035 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:31:00.035 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:31:00.036 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:31:00.975 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/25002-0
+2022-01-04 14:31:01.929 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:31:01.929 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:31:02.038 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 4s
+2022-01-04 14:31:02.106 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:31:02.107 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:31:02.609 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/33732-0
+2022-01-04 14:31:04.115 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:31:04.115 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:31:04.291 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:31:04.291 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:31:04.747 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/44469-0
+2022-01-04 14:31:06.050 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:31:06.050 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:31:06.050 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:31:06.051 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:31:06.051 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:31:06.300 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:31:06.300 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:31:06.433 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/39068-0
+2022-01-04 14:31:06.475 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:31:06.475 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:31:06.475 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:31:06.640 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:31:06.640 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:31:08.053 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:31:08.053 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:31:08.053 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:31:08.054 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:31:08.054 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:31:08.642 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 4s
+2022-01-04 14:31:09.751 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 30s
+2022-01-04 14:31:10.060 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 4s
+2022-01-04 14:31:10.256 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/aw?page=2&q=technology&utf8=%E2%9C%93
+2022-01-04 14:31:12.653 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 8s
+2022-01-04 14:31:13.637 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/33137-0
+2022-01-04 14:31:14.066 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 8s
+2022-01-04 14:31:15.161 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/21777-0
+2022-01-04 14:31:16.998 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/21966-0
+2022-01-04 14:31:18.757 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/21067-0
+2022-01-04 14:31:20.277 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/38909-0
+2022-01-04 14:31:20.666 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:31:20.666 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:31:21.323 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:31:21.324 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:31:21.324 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:31:21.483 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:31:21.483 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:31:21.484 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:31:21.643 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:31:21.644 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:31:21.644 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:31:21.803 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:31:21.803 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:31:21.804 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:31:21.806 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/41972-0
+2022-01-04 14:31:21.962 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:31:21.963 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:31:21.963 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:31:22.073 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:31:22.073 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:31:22.073 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:31:22.073 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:31:22.074 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:31:22.074 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:31:22.074 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:31:22.074 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:31:22.074 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:31:22.075 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:31:22.075 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:31:22.123 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:31:22.123 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:31:23.345 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/14506-0
+2022-01-04 14:31:24.083 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:31:24.083 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:31:24.083 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:31:24.130 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:31:24.130 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:31:24.304 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:31:24.305 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:31:25.013 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/26746-0
+2022-01-04 14:31:26.083 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:31:26.083 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:31:26.083 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:31:26.315 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:31:26.315 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:31:26.490 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:31:26.490 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:31:26.830 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/11525-0
+2022-01-04 14:31:28.085 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:31:28.085 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:31:28.085 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:31:28.492 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:31:28.492 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:31:28.651 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/13900-0
+2022-01-04 14:31:28.667 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:31:28.667 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:31:28.668 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:31:28.827 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:31:28.827 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:31:30.093 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:31:30.093 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:31:30.093 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:31:30.094 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:31:30.094 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:31:30.181 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/11809-0
+2022-01-04 14:31:30.829 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:31:30.829 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:31:31.005 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:31:31.006 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:31:31.818 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/32634-0
+2022-01-04 14:31:32.100 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:31:32.100 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:31:32.100 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:31:33.016 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:31:33.016 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:31:33.190 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:31:33.190 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:31:33.661 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/41055-0
+2022-01-04 14:31:34.106 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:31:34.106 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:31:34.106 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:31:35.205 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:31:35.205 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:31:35.212 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/22113-0
+2022-01-04 14:31:35.380 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:31:35.380 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:31:35.380 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:31:35.544 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:31:35.544 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:31:36.114 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:31:36.114 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:31:36.114 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:31:36.115 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:31:36.115 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:31:36.811 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/22260-0
+2022-01-04 14:31:37.552 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:31:37.552 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:31:37.727 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:31:37.727 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:31:38.128 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:31:38.128 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:31:38.128 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:31:38.437 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/43931-0
+2022-01-04 14:31:39.741 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:31:39.741 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:31:39.757 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 30s
+2022-01-04 14:31:39.917 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:31:39.917 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:31:40.095 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/45748-0
+2022-01-04 14:31:40.132 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:31:40.132 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:31:40.132 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:31:41.917 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:31:41.917 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:31:42.090 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:31:42.090 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:31:42.132 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:31:42.132 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:31:42.132 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:31:42.269 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/32622-0
+2022-01-04 14:31:43.929 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/33351-0
+2022-01-04 14:31:44.097 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:31:44.097 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:31:44.144 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 4s
+2022-01-04 14:31:44.302 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:31:44.303 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:31:44.303 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:31:44.463 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:31:44.463 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:31:45.442 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/35761-0
+2022-01-04 14:31:46.464 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:31:46.464 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:31:46.643 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:31:46.643 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:31:46.988 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/27667-0
+2022-01-04 14:31:48.159 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:31:48.159 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:31:48.159 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:31:48.160 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:31:48.160 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:31:48.160 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:31:48.160 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:31:48.557 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/21015-0
+2022-01-04 14:31:48.646 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:31:48.646 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:31:48.819 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:31:48.819 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:31:48.820 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:31:48.978 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:31:48.978 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:31:50.175 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:31:50.175 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:31:50.175 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:31:50.176 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:31:50.176 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:31:50.189 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/33652-0
+2022-01-04 14:31:50.987 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:31:50.987 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:31:51.164 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:31:51.164 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:31:52.188 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:31:52.188 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:31:52.188 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:31:52.639 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/30347-0
+2022-01-04 14:31:53.179 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:31:53.179 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:31:53.353 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:31:53.353 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:31:54.200 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:31:54.200 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:31:54.200 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:31:54.201 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/44921-0
+2022-01-04 14:31:55.361 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:31:55.361 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:31:55.576 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:31:55.576 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:31:55.972 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/19124-0
+2022-01-04 14:31:56.210 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:31:56.210 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:31:56.210 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:31:57.583 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:31:57.583 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:31:57.741 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/S583
+2022-01-04 14:31:57.757 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:31:57.757 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:31:57.758 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:31:57.917 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:31:57.917 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:31:58.211 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:31:58.211 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:31:58.211 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:31:58.212 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:31:58.212 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:31:59.388 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/32071-0
+2022-01-04 14:31:59.928 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:31:59.928 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:32:00.101 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:32:00.102 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:32:00.226 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:32:00.226 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:32:00.226 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:32:01.312 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/23086-0
+2022-01-04 14:32:02.113 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:32:02.113 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:32:02.240 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 4s
+2022-01-04 14:32:02.325 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:32:02.325 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:32:02.874 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/25025-0
+2022-01-04 14:32:04.335 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:32:04.335 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:32:04.508 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:32:04.508 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:32:05.683 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/aw?page=3&q=technology&utf8=%E2%9C%93
+2022-01-04 14:32:05.876 [pool-1-thread-1] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {tls}->http://zproxy.luminati.io:22225->https://api.opencorporates.com:443: The target server failed to respond
+2022-01-04 14:32:05.876 [pool-1-thread-1] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {tls}->http://zproxy.luminati.io:22225->https://api.opencorporates.com:443
+2022-01-04 14:32:06.256 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:32:06.256 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:32:06.256 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:32:06.257 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:32:06.257 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:32:06.521 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 4s
+2022-01-04 14:32:08.271 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 4s
+2022-01-04 14:32:09.309 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/43245-0
+2022-01-04 14:32:09.757 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 30s
+2022-01-04 14:32:10.524 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:32:10.524 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:32:10.871 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/34674-0
+2022-01-04 14:32:11.187 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:32:11.188 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:32:11.188 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:32:11.345 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:32:11.345 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:32:12.273 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:32:12.273 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:32:12.273 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:32:12.274 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:32:12.274 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:32:12.451 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/23296-0
+2022-01-04 14:32:13.355 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:32:13.355 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:32:13.533 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:32:13.533 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:32:14.114 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/aw/43913-0
+2022-01-04 14:32:14.289 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:32:14.289 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:32:14.289 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:32:15.541 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:32:15.541 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:32:15.727 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:32:15.727 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:32:16.295 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:32:16.295 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:32:16.295 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:32:17.728 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 4s
+2022-01-04 14:32:17.862 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/au?q=technology&utf8=✓
+2022-01-04 14:32:18.307 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 4s
+2022-01-04 14:32:21.281 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/079197087
+2022-01-04 14:32:21.742 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:32:21.743 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:32:22.316 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 8s
+2022-01-04 14:32:22.451 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:32:22.451 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:32:22.851 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/625636017
+2022-01-04 14:32:24.414 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/652501632
+2022-01-04 14:32:24.457 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:32:24.457 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:32:24.629 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:32:24.629 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:32:24.630 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:32:24.804 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:32:24.804 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:32:26.278 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/616998577
+2022-01-04 14:32:26.812 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:32:26.813 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:32:26.984 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:32:26.984 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:32:28.198 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/621136427
+2022-01-04 14:32:28.987 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:32:28.987 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:32:29.161 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:32:29.161 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:32:29.723 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/638640847
+2022-01-04 14:32:30.318 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:32:30.318 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:32:30.318 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:32:30.319 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:32:30.319 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:32:30.319 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:32:30.319 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:32:30.319 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:32:30.319 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:32:30.320 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:32:30.320 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:32:31.162 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:32:31.162 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:32:31.279 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/165189695
+2022-01-04 14:32:31.339 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:32:31.339 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:32:31.340 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:32:31.497 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:32:31.498 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:32:32.321 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:32:32.341 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:32:32.341 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:32:32.342 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:32:32.342 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:32:33.072 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/104651210
+2022-01-04 14:32:33.511 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:32:33.511 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:32:33.682 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:32:33.703 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:32:34.343 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:32:34.343 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:32:34.343 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:32:35.295 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/648363277
+2022-01-04 14:32:35.709 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:32:35.709 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:32:35.894 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:32:35.894 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:32:36.347 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:32:36.347 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:32:36.347 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:32:36.922 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/131885571
+2022-01-04 14:32:37.904 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:32:37.905 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:32:38.082 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:32:38.082 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:32:38.353 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:32:38.353 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:32:38.353 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:32:38.607 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/147511162
+2022-01-04 14:32:39.769 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 30s
+2022-01-04 14:32:40.093 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:32:40.093 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:32:40.193 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/154208438
+2022-01-04 14:32:40.275 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:32:40.275 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:32:40.275 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:32:40.357 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:32:40.357 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:32:40.357 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:32:40.433 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:32:40.434 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:32:41.962 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/126031918
+2022-01-04 14:32:42.369 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:32:42.369 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:32:42.369 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:32:42.444 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:32:42.445 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:32:42.642 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:32:42.642 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:32:43.765 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/126033261
+2022-01-04 14:32:44.382 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:32:44.382 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:32:44.382 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:32:44.648 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:32:44.649 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:32:44.845 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:32:44.845 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:32:45.478 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/128819134
+2022-01-04 14:32:46.390 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:32:46.390 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:32:46.390 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:32:46.859 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:32:46.859 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:32:47.032 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:32:47.032 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:32:47.108 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/166950689
+2022-01-04 14:32:48.405 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:32:48.405 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:32:48.405 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:32:48.989 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/640803738
+2022-01-04 14:32:49.034 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:32:49.034 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:32:49.208 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:32:49.208 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:32:49.208 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:32:49.371 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:32:49.371 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:32:50.419 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:32:50.419 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:32:50.419 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:32:50.420 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:32:50.420 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:32:50.600 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/624226955
+2022-01-04 14:32:51.383 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:32:51.420 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:32:51.588 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:32:51.588 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:32:52.435 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:32:52.435 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:32:52.435 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:32:52.508 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/643591717
+2022-01-04 14:32:53.603 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:32:53.603 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:32:53.775 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:32:53.775 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:32:54.086 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/080214035
+2022-01-04 14:32:54.444 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:32:54.444 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:32:54.444 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:32:55.786 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:32:55.786 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:32:55.896 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/641847654
+2022-01-04 14:32:55.957 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:32:55.957 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:32:55.958 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:32:56.117 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:32:56.117 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:32:56.456 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:32:56.456 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:32:56.456 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:32:56.457 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:32:56.457 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:32:57.631 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/159174722
+2022-01-04 14:32:58.130 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:32:58.130 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:32:58.307 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:32:58.307 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:32:58.472 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:32:58.472 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:32:58.473 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:32:59.322 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/083596212
+2022-01-04 14:33:00.309 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:33:00.309 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:33:00.480 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 4s
+2022-01-04 14:33:00.481 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:33:00.481 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:33:01.060 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/092128839
+2022-01-04 14:33:02.489 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:33:02.490 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:33:02.598 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/129567755
+2022-01-04 14:33:02.684 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:33:02.684 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:33:02.685 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:33:02.859 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:33:02.859 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:33:04.235 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/100996487
+2022-01-04 14:33:04.488 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:33:04.488 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:33:04.488 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:33:04.488 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:33:04.489 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:33:04.489 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:33:04.489 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:33:04.865 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:33:04.865 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:33:05.056 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:33:05.056 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:33:06.502 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:33:06.502 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:33:06.502 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:33:06.695 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/060757799
+2022-01-04 14:33:07.069 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:33:07.070 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:33:07.242 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:33:07.242 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:33:08.192 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/617649144
+2022-01-04 14:33:08.504 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:33:08.504 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:33:08.504 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:33:09.252 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:33:09.252 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:33:09.430 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:33:09.430 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:33:09.757 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/110994771
+2022-01-04 14:33:09.785 [pool-4-thread-1] WARN  b.a.OpenCorporatesScheduler - No records available to schedule, waiting 30s
+2022-01-04 14:33:10.507 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:33:10.507 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:33:10.507 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:33:11.445 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:33:11.445 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:33:11.607 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/653527854
+2022-01-04 14:33:11.618 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:33:11.618 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:33:11.618 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:33:11.775 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:33:11.775 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:33:12.521 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:33:12.521 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:33:12.521 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:33:12.521 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:33:12.522 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:33:13.783 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 4s
+2022-01-04 14:33:14.524 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 4s
+2022-01-04 14:33:16.034 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://opencorporates.com/companies/au?page=2&q=technology&utf8=%E2%9C%93
+2022-01-04 14:33:17.787 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 8s
+2022-01-04 14:33:18.537 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 8s
+2022-01-04 14:33:19.463 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/154742775
+2022-01-04 14:33:21.067 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/635330942
+2022-01-04 14:33:22.637 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/008636664
+2022-01-04 14:33:24.279 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/618997587
+2022-01-04 14:33:25.788 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:33:25.788 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:33:25.962 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/610816325
+2022-01-04 14:33:26.451 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:33:26.452 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:33:26.452 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:33:26.537 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:33:26.537 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:33:26.537 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:33:26.617 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:33:26.617 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:33:26.618 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:33:26.779 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:33:26.779 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:33:26.780 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:33:26.939 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:33:26.940 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:33:26.940 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:33:27.100 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:33:27.100 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:33:28.210 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/120118596
+2022-01-04 14:33:28.546 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:33:28.546 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:33:28.546 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:33:28.547 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:33:28.547 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:33:28.547 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:33:28.547 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:33:28.548 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:33:28.548 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:33:29.109 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:33:29.109 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:33:29.284 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:33:29.284 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:33:29.761 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/146866846
+2022-01-04 14:33:30.548 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:33:30.548 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:33:30.548 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:33:31.299 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:33:31.299 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:33:31.477 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:33:31.477 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:33:31.552 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/093573347
+2022-01-04 14:33:32.559 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:33:32.559 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:33:32.559 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:33:33.191 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/615281706
+2022-01-04 14:33:33.477 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:33:33.477 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:33:33.654 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:33:33.654 [pool-3-thread-1] INFO  bot.application.OpenCorporatesMiner - Mining a record - Parameters {type=raw}
+2022-01-04 14:33:33.654 [pool-3-thread-1] INFO  b.a.LoggingApplicationService - Logging status FOUND for the bot-opencorporates
+2022-01-04 14:33:33.832 [pool-3-thread-1] INFO  http.adapter.HttpGatewayImpl - POST - HTTP 202 - https://app.datadoghq.com/api/v1/series?api_key=c999e86d7588a9676a63e18b7148ff50
+2022-01-04 14:33:33.832 [pool-3-thread-1] WARN  bot.application.OpenCorporatesMiner - No records available to mine, waiting 2s
+2022-01-04 14:33:34.560 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:33:34.560 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:33:34.560 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Saving record - Input=null
+2022-01-04 14:33:34.560 [pool-2-thread-1] INFO  bot.application.OpenCorporatesLoader - Updating record - Input=null
+2022-01-04 14:33:34.561 [pool-2-thread-1] WARN  bot.application.OpenCorporatesLoader - No records available to load, waiting at 2s
+2022-01-04 14:33:34.839 [pool-1-thread-1] INFO  http.adapter.HttpGatewayImpl - GET - HTTP 200 - https://api.opencorporates.com/companies/au/151637964
+2022-01-04 14:33:35.135 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'

@@ -34,7 +34,7 @@ public class OpenCorporatesScheduler extends Scheduler {
     this.queueInputMessageBroker = queueInputMessageBroker;
   }
 
-  @Scheduled(cron = "00 14 13 * * *")
+  @Scheduled(cron = "00 29 14 * * *")
   public void scheduleTaskUsingCronExpression() {
     this.queueInputMessageBroker.reprocessMessage(new Message(new HashMap<String, String>(), "payload", RequestStatus.FOUND, LocalDateTime.now()));
   }
