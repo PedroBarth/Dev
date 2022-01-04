@@ -87,7 +87,6 @@ public class OpenCorporatesCrawler extends Crawler {
     response = this.doHttpRequest(new HttpGatewayImpl(String.format(BASE_URL, "/users/sign_in"), HttpMethod.POST).cookieStore(cookies).requestParameters(this.buildParamsLogin(token.attr("value"))).headers(this.generateHeadersLoginAction()), this.crawlerConfig.getMaxRetryAttempts());
 
     response = this.doHttpRequest(new HttpGatewayImpl(String.format(BASE_URL, "/users/account"), HttpMethod.GET).cookieStore(cookies).withProxy(proxy), this.crawlerConfig.getMaxRetryAttempts());
-    // fim do login . . .
 
     for (String code : codeList) {
       for (String query : queryList) {
@@ -105,15 +104,15 @@ public class OpenCorporatesCrawler extends Crawler {
           var nextLink = Jsoup.parse(response.getContent()).selectFirst("[class=\"next next_page\"]");
 
           var rawCompanies = Jsoup.parse(response.getContent()).selectFirst("[id=\"companies\"]");
-          if (rawCompanies == null){
+          if (rawCompanies == null) {
             System.out.println("Div companies == null . . .");
             break;
           }
 
-          var companies = rawCompanies.select(("[class=\"search-result company\"]"));
+          var companies = rawCompanies.children();
 
           for (Element comp : companies) {
-            var companieID = comp.select(("[class=\"company_search_result\"]")).attr("href");
+            var companieID = comp.getElementsByTag("a").get(1).attr("href");
 
             response = this.doHttpRequest(new HttpGatewayImpl(String.format(SEARCH_URL, companieID), HttpMethod.GET).cookieStore(cookies).headers(this.generateHeadersSearchAPI()).withProxy(proxy), this.crawlerConfig.getMaxRetryAttempts());
 
@@ -122,10 +121,10 @@ public class OpenCorporatesCrawler extends Crawler {
               .withRequestStatus(RequestStatus.FOUND)
               .withParameters(this.buildMessageParams(m))
               .withMessageDate(LocalDateTime.now()));
-            break;
+
           }
 
-          if (nextLink == null){
+          if (nextLink == null) {
             System.out.println("(alert) next link == null ...");
             break;
           }
@@ -140,7 +139,6 @@ public class OpenCorporatesCrawler extends Crawler {
   }
 
   private Proxy retrieveProxy() {
-    //return null;
     return new Proxy("lum-customer-c_d565f260-zone-predictus_global_companies", "bxkw65ku0b5j", "zproxy.luminati.io", 22225);
   }
 

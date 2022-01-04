@@ -8,8 +8,8 @@ import java.util.*;
 import javax.inject.Inject;
 import javax.inject.Named;
 
-import bot.domain.Officer;
-import bot.domain.Source;
+import bot.domain.Executives;
+import bot.domain.Categories;
 import com.jayway.jsonpath.JsonPath;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.context.annotation.Scope;
@@ -18,7 +18,7 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
 import bot.domain.Message;
-import bot.domain.Company;
+import bot.domain.Corporativa;
 import bot.port.output.LoaderRepository;
 import bot.port.output.OutputMessageBroker;
 import bot.runnables.Miner;
@@ -50,26 +50,47 @@ public class OpenCorporatesMiner extends Miner {
 
     var json = m.getPayload();
 
-    final String name = this.jsonPath(json, "$.results.company.name");
-    final String companyNumber = this.jsonPath(json, "$.results.company.company_number");
-    final String jurisdictionCode = this.jsonPath(json, "$.results.company.jurisdiction_code");
-    final LocalDate incorporationDate = this.getDate(json, "$.results.company.incorporation_date");
-    final LocalDate dissolutionDate = this.getDate(json, "$.results.company.dissolution_date");
-    final String companyType = this.jsonPath(json, "$.results.company.company_type");
-    final String registryURL = this.jsonPath(json, "$.results.company.registry_url");
-    final String branch = this.jsonPath(json, "$.results.company.branch");
-    final String branchStatus = this.jsonPath(json, "$.results.company.branch_status");
-    final Boolean inactive = this.jsonPath(json, "$.results.company.inactive");
-    final String currentStatus = this.jsonPath(json, "$.results.company.current_status");
-    final LocalDate creationDate = this.getDate(json, "$.results.company.created_at");
-    final LocalDate updateDate = this.getDate(json, "$.results.company.updated_at");
-    final LocalDate retrieveDate = this.getDate(json, "$.results.company.retrieved_at");
-    final String openCorporatesURL = this.jsonPath(json, "$.results.company.opencorporates_url");
-    final Source source = this.getSources(json);
-    final List<Officer> officers = this.getOfficers(json);
+    final String id = this.jsonPath(json, "$.results.company.company_number");
+    final String businessName = this.jsonPath(json, "$.results.company.name");
+    final String address1 = null;
+    final String address2 = null;
+    final String address = this.jsonPath(json, "$.results.company.agent_address");
+    final String city = null;
+    final String province = null;
+    final String postCode = null;
+    final String region = null;
+    final String country = this.jsonPath(json, "$.results.company.jurisdiction_code");
+    final String phone = null;
+    final String fax = null;
+    final String mobile = null;
+    final String email = null;
+    final String website = null;
+    final String facebook = null;
+    final String twitter = null;
+    final String linkedin = null;
+    final String tiktok = null;
+    final String instagram = null;
+    final Integer latitude = null;
+    final Integer longitude = null;
+    final String language = null;
+    final String nationalId = null;
+    final String ceoName = null;
+    final String ceoTitle = null;
+    final Integer yearStarted = this.getDate(json, "$.results.company.created_at").getYear();
+    final LocalDate dateStarted = this.getDate(json, "$.results.company.created_at");
+    final Integer salesVolume = null;
+    final String currency = null;
+    final Integer salesVolumeSD = null;
+    final LocalDate reportDate = null;
+    final Integer employeesHere = this.jsonPath(json, "$.results.company.number_of_employees");
+    final Integer employeesTotal = null;
+    final String legalStatusCodeDescription = this.jsonPath(json, "$.results.company.current_status");
+    final List<Categories> categories = this.getCategorie(json);
+    final List<Executives> executives = this.getExecutives(json);
 
     return Optional.ofNullable(m.withPayload(
-      this.gson.toJson(new Company(name, companyNumber, jurisdictionCode, incorporationDate, dissolutionDate, companyType, registryURL, branch, branchStatus, inactive, currentStatus, creationDate, updateDate, retrieveDate, openCorporatesURL, source, officers))));
+      this.gson.toJson(new Corporativa(id, businessName, address1, address2, address, city, province, postCode, region, country, phone, fax, mobile, email, website, facebook, twitter, linkedin, tiktok, instagram, latitude, longitude, language, nationalId, ceoName, ceoTitle, yearStarted, dateStarted, salesVolume, currency, salesVolumeSD, reportDate, employeesHere, employeesTotal, legalStatusCodeDescription, categories, executives))));
+
   }
 
   private LocalDate getDate(String json, String path) {
@@ -78,66 +99,49 @@ public class OpenCorporatesMiner extends Miner {
       rawDate = rawDate.split("T")[0];
 
       LocalDate date = LocalDate.parse(rawDate,
-              DateTimeFormatter.ofPattern("yyyy-MM-dd"));
+        DateTimeFormatter.ofPattern("yyyy-MM-dd"));
       return date;
     } catch (Exception e) {
       return null;
     }
   }
 
+  private List<Categories> getCategories(String json) {
+    final List<Categories> sources = new ArrayList<>();
+    final List<Map<String, Object>> rawSources = this.jsonPath(json, "$.results.company.source");
 
-  private Integer getLongitude(String json) {
-    try {
-      var RawLatitude = this.jsonPath(json, "$.Longitude");
+    for (final Map<String, Object> source : rawSources) {
+      json = this.gson.toJson(source);
 
-      return Integer.parseInt(RawLatitude.toString().replaceAll("[^\\d]", ""));
-    } catch (NumberFormatException e) {
-      return null;
+      String name = this.jsonPath(json, "$.publisher");
+
+      sources.add(new Categories(null, name));
+
     }
+    return sources;
   }
 
-  private Integer getLatitude(String json) {
-    try {
-      var RawLatitude = this.jsonPath(json, "$.Latitude");
+  private List<Categories> getCategorie(String json) {
+    final List<Categories> sources = new ArrayList<>();
 
-      return Integer.parseInt(RawLatitude.toString().replaceAll("[^\\d]", ""));
-    } catch (NumberFormatException e) {
-      return null;
-    }
+    String name = this.jsonPath(json, "$.results.company.source.publisher");
+
+    sources.add(new Categories(null, name));
+
+    return sources;
   }
 
-  private Source getSources(String json) {
-
-    String publisher = this.jsonPath(json, "$.results.company.source.publisher");
-    String url = this.jsonPath(json, "$.results.company.source.url");
-    String terms = this.jsonPath(json, "$.results.company.source.terms");
-    String termsURL = this.jsonPath(json, "$.results.company.source.terms_url");
-    LocalDate retrievedAt = this.getDate(json, "$.results.company.retrieved_at");
-
-    Source source = new Source(publisher, url, terms, termsURL, retrievedAt);
-
-    return source;
-  }
-
-  private List<Officer> getOfficers(String json) {
-    final List<Officer> officers = new ArrayList<>();
+  private List<Executives> getExecutives(String json) {
+    final List<Executives> officers = new ArrayList<>();
     final List<Map<String, Object>> rawOfficers = this.jsonPath(json, "$.results.company.officers");
 
     for (final Map<String, Object> officer : rawOfficers) {
       json = this.gson.toJson(officer);
 
-      Integer id = this.jsonPath(json, "$.officer.id");
-      String name = this.jsonPath(json, "$.officer.name");
-      String position = this.jsonPath(json, "$.officer.position");
-      String uid = this.jsonPath(json, "$.officer.uid");
-      LocalDate startDate = this.getDate(json, "$.officer.start_date");
-      LocalDate endDate = this.getDate(json, "$.officer.end_date");
-      String openCorporatesURL = this.jsonPath(json, "$.officer.opencorporates_url");
-      String occupation = this.jsonPath(json, "$.officer.occupation");
-      String inactive = this.jsonPath(json, "$.officer.inactive");
-      String currentStatus = this.jsonPath(json, "$.officer.current_status");
+      String fullName = this.jsonPath(json, "$.officer.name");
+      String title = this.jsonPath(json, "$.officer.position");
 
-      officers.add(new Officer(id, name, position, uid, startDate, endDate, openCorporatesURL, occupation, inactive, currentStatus));
+      officers.add(new Executives(fullName, null, null, title, null, null));
 
     }
     return officers;
