@@ -44,8 +44,9 @@ public class OpenCorporatesCrawler extends Crawler {
 
 
   private static final String CODE_SEARCH_PATH = "src/main/java/bot/application/OpenCorporatesCodeSearchPath";
-  private static final String QUERY_SEARCH_PATH = "src/main/java/bot/application/OpenCorporatesQuerySearchPath";
+  private static final String QUERY_SEARCH_PATH = "src/main/java/bot/application/OpenCorporatesQueryPath";
   private static final String BASE_URL = "https://opencorporates.com%s";
+  private static final String QUERY_URL = "https://opencorporates.com/companies/%s?q=%s&utf8=✓";
   private static final String SEARCH_URL = "https://api.opencorporates.com%s";
 
 
@@ -77,6 +78,7 @@ public class OpenCorporatesCrawler extends Crawler {
     final BasicCookieStore cookies = new BasicCookieStore();
     final Proxy proxy = this.retrieveProxy();
     final List<String> codeList = this.buildSearchList(CODE_SEARCH_PATH);
+    final List<String> queryList = this.buildSearchList(QUERY_SEARCH_PATH);
 
     HttpResponse response = this.doHttpRequest(new HttpGatewayImpl(String.format(BASE_URL, "/users/sign_in"), HttpMethod.GET).cookieStore(cookies), this.crawlerConfig.getMaxRetryAttempts());
 
@@ -87,53 +89,59 @@ public class OpenCorporatesCrawler extends Crawler {
     response = this.doHttpRequest(new HttpGatewayImpl(String.format(BASE_URL, "/users/account"), HttpMethod.GET).cookieStore(cookies).withProxy(proxy), this.crawlerConfig.getMaxRetryAttempts());
     // fim do login . . .
 
+    for (String code : codeList) {
+      for (String query : queryList) {
+        response = this.doHttpRequest(new HttpGatewayImpl(String.format(QUERY_URL, code.split(">")[0], query), HttpMethod.GET).cookieStore(cookies).headers(this.generateHeadersSearchAction()).withProxy(proxy), this.crawlerConfig.getMaxRetryAttempts());
 
-    // busca estática para iniciar paginação  . . .
-    response = this.doHttpRequest(new HttpGatewayImpl(String.format(BASE_URL, "/companies/br?q=tecnologia&utf8=✓"), HttpMethod.GET).cookieStore(cookies).headers(this.generateHeadersSearchAction()).withProxy(proxy), this.crawlerConfig.getMaxRetryAttempts());
+        while (true) {
 
-    while (true) {
-      var nextLink = Jsoup.parse(response.getContent()).selectFirst("[class=\"next next_page\"]").selectFirst("a").attr("href");
-      var checkPage = Jsoup.parse(response.getContent()).selectFirst("[class=\"oc-page-header\"]");
-      if (checkPage != null) {
-        if (checkPage.text().equals("Enterprise web account")) {
-          System.out.println("(alert) You need a premium user account for this feature");
-          break;
+          var checkPage = Jsoup.parse(response.getContent()).selectFirst("[class=\"oc-page-header\"]");
+          if (checkPage != null) {
+            if (checkPage.text().equals("Enterprise web account")) {
+              System.out.println("(alert) You need a premium user account for this feature");
+              break;
+            }
+          }
+          var nextLink = Jsoup.parse(response.getContent()).selectFirst("[class=\"next next_page\"]");
+
+          var rawCompanies = Jsoup.parse(response.getContent()).selectFirst("[id=\"companies\"]");
+          if (rawCompanies == null){
+            System.out.println("Div companies == null . . .");
+            break;
+          }
+
+          var companies = rawCompanies.select(("[class=\"search-result company\"]"));
+
+          for (Element comp : companies) {
+            var companieID = comp.select(("[class=\"company_search_result\"]")).attr("href");
+
+            response = this.doHttpRequest(new HttpGatewayImpl(String.format(SEARCH_URL, companieID), HttpMethod.GET).cookieStore(cookies).headers(this.generateHeadersSearchAPI()).withProxy(proxy), this.crawlerConfig.getMaxRetryAttempts());
+
+            this.outputMessageBroker.sendMessage(m
+              .withPayload(response.getContent())
+              .withRequestStatus(RequestStatus.FOUND)
+              .withParameters(this.buildMessageParams(m))
+              .withMessageDate(LocalDateTime.now()));
+            break;
+          }
+
+          if (nextLink == null){
+            System.out.println("(alert) next link == null ...");
+            break;
+          }
+          var link = nextLink.selectFirst("a").attr("href");
+          response = this.doHttpRequest(new HttpGatewayImpl(String.format(BASE_URL, link), HttpMethod.GET).cookieStore(cookies).headers(this.generateHeadersSearchAction()).withProxy(proxy), this.crawlerConfig.getMaxRetryAttempts());
+
         }
       }
-
-      System.out.println("Keep crawling...");
-
-      var rawCompanies = Jsoup.parse(response.getContent()).selectFirst("[id=\"companies\"]");
-      if (rawCompanies == null)
-        break;
-
-      var companies = rawCompanies.select(("[class=\"search-result company\"]"));
-
-      for (Element comp : companies) {
-        var companieID = comp.select(("[class=\"company_search_result\"]")).attr("href");
-
-        response = this.doHttpRequest(new HttpGatewayImpl(String.format(SEARCH_URL, companieID), HttpMethod.GET).cookieStore(cookies).headers(this.generateHeadersSearchAPI()).withProxy(proxy), this.crawlerConfig.getMaxRetryAttempts());
-
-        this.outputMessageBroker.sendMessage(m
-          .withPayload(response.getContent())
-          .withRequestStatus(RequestStatus.FOUND)
-          .withParameters(this.buildMessageParams(m))
-          .withMessageDate(LocalDateTime.now()));
-        break;
-      }
-
-
-      response = this.doHttpRequest(new HttpGatewayImpl(String.format(BASE_URL, nextLink), HttpMethod.GET).cookieStore(cookies).headers(this.generateHeadersSearchAction()).withProxy(proxy), this.crawlerConfig.getMaxRetryAttempts());
-
     }
-
 
     return Optional.empty();
   }
 
   private Proxy retrieveProxy() {
-    return null;
-    // return new Proxy("lum-customer-c_d565f260-zone-predictus_global_companies", "bxkw65ku0b5j", "zproxy.luminati.io", 22225);
+    //return null;
+    return new Proxy("lum-customer-c_d565f260-zone-predictus_global_companies", "bxkw65ku0b5j", "zproxy.luminati.io", 22225);
   }
 
   private HttpResponse doHttpRequest(final HttpGateway request, int maxRetryAttempts) throws ProxyException {

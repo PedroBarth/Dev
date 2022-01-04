@@ -48,7 +48,6 @@ public class OpenCorporatesMiner extends Miner {
     if (StringUtils.isEmpty(m.getPayload()))
       return Optional.of(m);
 
-
     var json = m.getPayload();
 
     final String name = this.jsonPath(json, "$.results.company.name");
