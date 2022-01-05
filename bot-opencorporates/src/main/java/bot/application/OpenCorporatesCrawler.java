@@ -20,6 +20,7 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.jayway.jsonpath.JsonPath;
 import http.domain.MediaType;
+import org.apache.http.HttpStatus;
 import org.apache.http.impl.client.BasicCookieStore;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Element;
@@ -80,13 +81,7 @@ public class OpenCorporatesCrawler extends Crawler {
     final List<String> codeList = this.buildSearchList(CODE_SEARCH_PATH);
     final List<String> queryList = this.buildSearchList(QUERY_SEARCH_PATH);
 
-    HttpResponse response = this.doHttpRequest(new HttpGatewayImpl(String.format(BASE_URL, "/users/sign_in"), HttpMethod.GET).cookieStore(cookies), this.crawlerConfig.getMaxRetryAttempts());
-
-    var token = Jsoup.parse(response.getContent()).selectFirst("[name=\"authenticity_token\"]");
-
-    response = this.doHttpRequest(new HttpGatewayImpl(String.format(BASE_URL, "/users/sign_in"), HttpMethod.POST).cookieStore(cookies).requestParameters(this.buildParamsLogin(token.attr("value"))).headers(this.generateHeadersLoginAction()), this.crawlerConfig.getMaxRetryAttempts());
-
-    response = this.doHttpRequest(new HttpGatewayImpl(String.format(BASE_URL, "/users/account"), HttpMethod.GET).cookieStore(cookies).withProxy(proxy), this.crawlerConfig.getMaxRetryAttempts());
+    HttpResponse response = this.login(cookies, proxy);
 
     for (String code : codeList) {
       for (String query : queryList) {
@@ -110,11 +105,20 @@ public class OpenCorporatesCrawler extends Crawler {
           }
 
           var companies = rawCompanies.children();
-
+          Integer maxRetries = 20;
           for (Element comp : companies) {
             var companieID = comp.getElementsByTag("a").get(1).attr("href");
 
-            response = this.doHttpRequest(new HttpGatewayImpl(String.format(SEARCH_URL, companieID), HttpMethod.GET).cookieStore(cookies).headers(this.generateHeadersSearchAPI()).withProxy(proxy), this.crawlerConfig.getMaxRetryAttempts());
+            do {
+              response = this.doHttpRequest(new HttpGatewayImpl(String.format(SEARCH_URL, companieID), HttpMethod.GET).cookieStore(cookies).headers(this.generateHeadersSearchAPI()).withProxy(proxy), this.crawlerConfig.getMaxRetryAttempts());
+              if (response.getHttpStatusCode() == HttpStatus.SC_FORBIDDEN) {
+                maxRetries--;
+                response = this.login(new BasicCookieStore(), proxy);
+                Thread.sleep(1000);
+              } else {
+                break;
+              }
+            } while (maxRetries > 0);
 
             this.outputMessageBroker.sendMessage(m
               .withPayload(response.getContent())
@@ -125,7 +129,6 @@ public class OpenCorporatesCrawler extends Crawler {
           }
 
           if (nextLink == null) {
-            System.out.println("(alert) next link == null ...");
             break;
           }
           var link = nextLink.selectFirst("a").attr("href");
@@ -142,8 +145,17 @@ public class OpenCorporatesCrawler extends Crawler {
     return new Proxy("lum-customer-c_d565f260-zone-predictus_global_companies", "bxkw65ku0b5j", "zproxy.luminati.io", 22225);
   }
 
+  private HttpResponse login(BasicCookieStore cookies, Proxy proxy) throws ProxyException {
+    HttpResponse response = this.doHttpRequest(new HttpGatewayImpl(String.format(BASE_URL, "/users/sign_in"), HttpMethod.GET).cookieStore(cookies), this.crawlerConfig.getMaxRetryAttempts());
+    var token = Jsoup.parse(response.getContent()).selectFirst("[name=\"authenticity_token\"]");
+    response = this.doHttpRequest(new HttpGatewayImpl(String.format(BASE_URL, "/users/sign_in"), HttpMethod.POST).cookieStore(cookies).requestParameters(this.buildParamsLogin(token.attr("value"))).headers(this.generateHeadersLoginAction()), this.crawlerConfig.getMaxRetryAttempts());
+    response = this.doHttpRequest(new HttpGatewayImpl(String.format(BASE_URL, "/users/account"), HttpMethod.GET).cookieStore(cookies).withProxy(proxy), this.crawlerConfig.getMaxRetryAttempts());
+    return response;
+  }
+
   private HttpResponse doHttpRequest(final HttpGateway request, int maxRetryAttempts) throws ProxyException {
     HttpResponse response = null;
+
     do
       try {
         final Proxy proxy = this.proxyRepository.get(this.thread()).orElse(this.retrieveProxy());
@@ -151,9 +163,14 @@ public class OpenCorporatesCrawler extends Crawler {
           .connectionTimeout(this.crawlerConfig.getConnectionTimeout())
           .socketTimeout(this.crawlerConfig.getSocketTimeout())
           .charset(StandardCharsets.UTF_8)
-          .timeToSleepBetweenRequests(0)
+          .timeToSleepBetweenRequests(1000)
           .execute();
         if (response.getContent().contains("datasite-key")) throw new ProxyException("RECaptcha appears");
+
+        if (response.getHttpStatusCode() == HttpStatus.SC_FORBIDDEN) {
+          return response;
+        }
+
         this.validateResponse(response);
         this.proxyRepository.put(this.thread(), proxy);
         return response;

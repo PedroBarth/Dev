@@ -2,7 +2,9 @@ package bot.application;
 
 import java.time.LocalDateTime;
 import java.util.HashMap;
+import java.util.Map;
 
+import javax.annotation.PostConstruct;
 import javax.inject.Inject;
 import javax.inject.Named;
 
@@ -34,8 +36,13 @@ public class OpenCorporatesScheduler extends Scheduler {
     this.queueInputMessageBroker = queueInputMessageBroker;
   }
 
-  @Scheduled(cron = "00 29 14 * * *")
+  @Scheduled(cron = "00 26 17 * * *")
   public void scheduleTaskUsingCronExpression() {
     this.queueInputMessageBroker.reprocessMessage(new Message(new HashMap<String, String>(), "payload", RequestStatus.FOUND, LocalDateTime.now()));
+  }
+
+  @PostConstruct
+  public void start() {
+    this.queueInputMessageBroker.reprocessMessage(new Message(Map.of("input", "q"), "payload", RequestStatus.FOUND, LocalDateTime.now()));
   }
 }

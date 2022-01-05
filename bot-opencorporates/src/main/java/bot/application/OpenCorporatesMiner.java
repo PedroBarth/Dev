@@ -54,17 +54,17 @@ public class OpenCorporatesMiner extends Miner {
     final String businessName = this.jsonPath(json, "$.results.company.name");
     final String address1 = null;
     final String address2 = null;
-    final String address = this.jsonPath(json, "$.results.company.agent_address");
-    final String city = null;
+    final String address = this.jsonPath(json, "$.results.company.registered_address_in_full");
+    final String city = this.jsonPath(json, "$.results.company.registered_address.locality");
     final String province = null;
-    final String postCode = null;
-    final String region = null;
-    final String country = this.jsonPath(json, "$.results.company.jurisdiction_code");
+    final String postCode = this.jsonPath(json, "$.results.company.registered_address.postal_code");
+    final String region = this.jsonPath(json, "$.results.company.registered_address.region");
+    final String country = this.jsonPath(json, "$.results.company.registered_address.country");
     final String phone = null;
     final String fax = null;
     final String mobile = null;
     final String email = null;
-    final String website = null;
+    final String website = this.jsonPath(json, "$.results.company.registry_url");
     final String facebook = null;
     final String twitter = null;
     final String linkedin = null;
@@ -76,8 +76,8 @@ public class OpenCorporatesMiner extends Miner {
     final String nationalId = null;
     final String ceoName = null;
     final String ceoTitle = null;
-    final Integer yearStarted = this.getDate(json, "$.results.company.created_at").getYear();
-    final LocalDate dateStarted = this.getDate(json, "$.results.company.created_at");
+    final Integer yearStarted = this.getYear(json, "$.results.company.incorporation_date");
+    final LocalDate dateStarted = this.getDate(json, "$.results.company.incorporation_date");
     final Integer salesVolume = null;
     final String currency = null;
     final Integer salesVolumeSD = null;
@@ -91,6 +91,19 @@ public class OpenCorporatesMiner extends Miner {
     return Optional.ofNullable(m.withPayload(
       this.gson.toJson(new Corporativa(id, businessName, address1, address2, address, city, province, postCode, region, country, phone, fax, mobile, email, website, facebook, twitter, linkedin, tiktok, instagram, latitude, longitude, language, nationalId, ceoName, ceoTitle, yearStarted, dateStarted, salesVolume, currency, salesVolumeSD, reportDate, employeesHere, employeesTotal, legalStatusCodeDescription, categories, executives))));
 
+  }
+
+  private Integer getYear(String json, String path) {
+    try {
+      String rawDate = this.jsonPath(json, path);
+      rawDate = rawDate.split("T")[0];
+
+      LocalDate date = LocalDate.parse(rawDate,
+        DateTimeFormatter.ofPattern("yyyy-MM-dd"));
+      return date.getYear();
+    } catch (Exception e) {
+      return null;
+    }
   }
 
   private LocalDate getDate(String json, String path) {
